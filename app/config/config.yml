@@ -233,4 +233,15 @@ oro_help:
             uri: Platform/OroDashboardBundle
 
 oro_theme:
-    active_theme: oro
+    active_theme: gambit
+    themes:
+        gambit:
+            styles:
+                - gambit/css/style.css
+                - gambit/css/less/main.less
+            label: Gambit
+            icon: gambit/images/favicon.ico
+            logo: gambit/images/logo-g.png
+
+oro_assetic:
+    css_debug: [theme]

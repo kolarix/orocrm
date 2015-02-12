@@ -16,7 +16,8 @@
     ],
     "require": {
         "oro/platform": "1.6.*",
-        "oro/crm": "1.6.*"
+        "oro/crm": "1.6.*",
+        "oro/crm-mail-chimp": "1.2.*"
     },
     "scripts": {
         "post-install-cmd": [

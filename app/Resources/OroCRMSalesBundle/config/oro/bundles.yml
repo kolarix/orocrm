@@ -1,0 +1,3 @@
+bundles:
+    - { name: OroCRM\Bundle\SalesBundle\OroCRMSalesBundle, priority: 40 }
+

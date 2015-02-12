@@ -1,0 +1,57 @@
+Addresses: Adrese
+Basic Information: Osnovne Informacije
+orocrm:
+    dashboard:
+        my_accounts_activity:
+            title:                  Nedavno pogledani klijenti
+            view_all:               Pogledaj sve
+            description:            Ovaj widget prikazuje popis nedavno pregledanih klijenata
+
+    account:
+        menu:
+            customers_tab.label: Korisnici
+            account_list.description: Popis klijenata
+            shortcut_new_account.label: Napravi novog klijenta
+            shortcut_new_account.description: Napravi novog klijenta
+            shortcut_list_accounts.label: Prikaži popis klijenata
+            shortcut_list_accounts.description: Popis klijenata
+        widgets:
+            magento_channel:        Magento Kanal
+            account_information:    Informacije o Klijentu
+
+        account_actions:            Radnje
+
+        sections:
+            general:                Općenito
+        form:
+            choose_account:         Odaberite klijenta...
+            select_contacts:        Odaberite kontakte
+        controller:
+            account.saved.message:  "Klijent spremljen"
+        #
+        # OroCRM/Bundle/AccountBundle/Entity/Account
+        #
+        entity_label:               Klijent
+        entity_plural_label:        Klijenti
+        entity_description:         Predstavlja klijenta
+        id.label:                   Id
+        name.label:                 Ime klijenta
+        owner.label:                Vlasnik
+        contacts.label:             Kontakti
+        default_contact.label:      Zadani Kontakt
+        phone.label:                Telefon
+        email.label:                Email
+        assigned.label:             Dodijeljeno
+        referred_by.label:          Uputio
+
+        extend_description.label:   Opis
+
+        lifetime_value.label:       Ukupna dosadašnja vrijednost
+
+        contact:
+            name:                   Ime kontakta
+            email:                  Email kontakta
+            phone:                  Telefon kontakta
+
+        organization:
+            label: Organizacija

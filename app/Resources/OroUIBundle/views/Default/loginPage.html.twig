@@ -1,0 +1,36 @@
+{% extends "OroUIBundle:Default:index.html.twig" %}
+{% block bodyClass %}
+    login-page
+{% endblock %}
+{% block header %}
+{% endblock %}
+{% block content %}
+    <div class="container">
+        <form class="form-signin">
+            <div class="title-box">
+                <h2 class="title">{{ 'Prijava'|trans }}</h2>
+            </div>
+            <fieldset>
+                <div class="input-prepend">
+                    <span class="add-on">{{ 'Korisničko ime'|trans }}</span>
+                    <input type="text" placeholder="korisničko ime" id="prependedInput" class="span2">
+                </div>
+                <div class="input-prepend">
+                    <span class="add-on">{{ 'Lozinka'|trans }}</span>
+                    <input type="password" placeholder="lozinka" id="prependedInput2" class="span2">
+                </div>
+                <div class="form-row">
+                    <label class="checkbox">
+                        <input type="checkbox" value="remember-me"> {{ 'Zapamti moju prijavu'|trans }}
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-large btn-primary">{{ 'Prijavi se'|trans }}</button>
+                <div class="form-row">
+                    <a href="#">{{ 'Zaboravili ste korisničko ime?'|trans }}</a>
+                    <span class="divider-vertical">|</span>
+                    <a href="#">{{ 'Zaboravili ste lozinku?'|trans }}</a>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+{% endblock content %}
