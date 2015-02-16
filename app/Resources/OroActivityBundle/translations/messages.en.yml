@@ -1,0 +1,9 @@
+oro:
+    activity:
+        activities:           Aktivnosti
+
+        menu:
+            activities_tab.label: Aktivnosti
+
+        sections:
+            activities:       Aktivnosti

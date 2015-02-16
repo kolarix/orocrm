@@ -1,0 +1,6 @@
+oro:
+    embeddedform:
+        css:
+            tooltip: Samo CSS je dozvoljen.
+        success_message:
+            tooltip: Ova poruka će se pojaviti nakon predavanja forme.<br />Koristite <strong>{back_link|Back link text}</strong> placeholder za dodavanje lika za nazad u formi.

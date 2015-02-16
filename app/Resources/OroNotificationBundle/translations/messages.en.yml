@@ -1,0 +1,44 @@
+oro:
+    notification:
+        menu:
+            emailnotification_list.description: Popis email obavijesti
+
+        controller:
+            emailnotification:
+                saved.message: Pravilo email obavijesti spremljeno
+
+        event:
+            entity_post_update:  Objekt ažuriraj
+            entity_post_persist: Objekt kreiraj
+            entity_post_remove:  Objekt obriši
+
+        form:
+            choose_event: Odaberi događaj...
+
+        datagrid:
+            action:
+                update: Ažuriraj
+                delete: Obriši
+            recipient:
+                user: Primatelji
+                group: Grupe primatelja
+                custom_email: Email primatelja
+                owner: Vlasnik
+
+        emailnotification:
+            entity_label:         Pravilo obavijesti
+            entity_plural_label:  Pravila obavijesti
+            entity_description:   Predstavlja email obavijesti
+            edit_entity:          Uredi pravilo o obavijesti %name%
+            id.label:             Id
+            entity_name.label:    Ime objekta
+            event.label:          Ime događaja
+            template.label:       Predložak
+            recipient_list.label: Popis primatelja
+            email.label:          Email
+            owner.label:          Vlasnik
+
+        system_configuration:
+            email_notification_sender_email: Email Pošiljatelja
+            email_notification_sender_name: Ime Pošiljatelja
+            title: Postavke obavijesti

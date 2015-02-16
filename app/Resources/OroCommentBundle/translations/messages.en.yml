@@ -1,0 +1,15 @@
+oro:
+    comment:
+        entity_label: Komentar
+        entity_plural_label: Komentari
+        id.label: Id
+        message.label: Poruka
+        organization.label: Organizacija
+        owner.label: Vlasnik
+        updated_by.label: Ažurirao
+        attachment.label: Privitak
+
+        message.placeholder: Unesite komentar...
+        enabled: Omogući komentare
+
+add_comment: Dodaj komentare

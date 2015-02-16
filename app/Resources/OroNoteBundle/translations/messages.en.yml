@@ -1,0 +1,25 @@
+oro:
+    note:
+        enabled:              Omogući bilješke
+
+        entity_label:         Bilješka
+        entity_plural_label:  Bilješke
+        entity_description:   Predstavlja bilješke
+
+        id.label:             Id
+        message.label:        Poruka
+        owner.label:          Napravio
+        organization.label:   Organizacija
+        updated_by.label:     Ažurirao
+
+        action:
+            add:              Dodaj bilješku
+            edit:             Uredi bilješku
+            remove:           Obriši bilješku
+
+        no_notes_exist:       Nema bilješki
+        updated_by:           Ažurirao {{ user }}, {{ date }}
+        note_added_by:        dodao {{ user }}, {{ date }}
+        note_updated_by:      dodao {{ user }}, {{ date }}, ažurirao {{ editor }}, {{ editor_date }}
+        note_update:          Ažuriraj {{ entity }}
+        note_delete:          Obriši {{ entity }}

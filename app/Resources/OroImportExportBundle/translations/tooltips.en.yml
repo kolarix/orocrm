@@ -1,0 +1,5 @@
+oro:
+    importexport:
+        entity_config:
+            full.tooltip:   "Sva polja povezanog objekta će se izvesti"
+            header.tooltip: "Ako je prazno koristiti će se Oznaka"

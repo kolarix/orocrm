@@ -1,0 +1,20 @@
+oro:
+    activitylist:
+        edit_title:   Ažuriraj stavku
+        delete_title: Obriši stavku
+
+        item_saved:   Stavka aktivnosti spremljena
+        item_removed: Stavka aktivnosti obrisana
+
+        delete_confirmation: Jeste li sigurni da želite obrisati ovu stavku?
+        delete_error:        Nažalost, brisanje stavke nije uspjelo.
+
+        load_error:      Nažalost, popis aktivnosti se nije dobro učitao.
+        forbidden_error: Nemate ovlasti za ovu radnju.
+        forbidden_activity_data_view_error: Nemate ovlasti za ovu radnju
+        widget:
+            filter:
+                date_picker.title: Raspon Datuma
+                activity.title: Tip Aktivnosti
+        comment:
+            quantity_label: Broj komentara

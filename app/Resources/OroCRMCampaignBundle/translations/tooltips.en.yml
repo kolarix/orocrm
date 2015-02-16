@@ -1,0 +1,7 @@
+orocrm:
+    campaign:
+        name.tooltip: Maksimalno 100 znakova.
+        code.tooltip: Maksimalno 20 znakova.
+
+        report_period.tooltip: |
+            Ovo je vremenska ljestvica zabilježenih događanja.

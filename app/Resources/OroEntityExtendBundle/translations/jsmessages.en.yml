@@ -1,0 +1,12 @@
+"Schema update confirmation": "Postavke ažuriranja sheme"
+"Your config changes will be applied to schema.": "Vaše postavke će biti prihvaćene u shemu."
+"It may take few minutes...": "Može potrajati nekoliko minuta..."
+"Yes, Proceed": "Da, Nastavi"
+"Field successfully deleted": "Polje uspješno obrisano"
+"Field was restored": "Polje vraćeno"
+
+oro:
+    entity_extend:
+        schema_updated: Shema ažurirana
+        schema_update_failed: Ažuriranje sheme neuspjelo
+        delete_field.confirm_content: Jeste li sigurni da želite obrisati ovo polje?

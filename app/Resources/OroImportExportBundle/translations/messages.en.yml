@@ -1,0 +1,29 @@
+oro:
+    importexport:
+        action:
+            export:  "Izvoz objekata"
+            general: "Opće radnje uvoza"
+            import:  "Uvoz objekata"
+            
+        export:
+            label: Izvoz
+
+        entity_config:
+            block_title:    "Uvoz & Izvoz"
+            excluded.label: "Isključi stupac"
+            full.label:     "Izvoz polja"
+            header.label:   "Ime stupca"
+            identity.label: "Koristi kao identitet polje"
+            order.label:    "Pozicija stupca"
+            
+        import:
+            error:          "Greška pri uvozu."
+            error %number%: "Greška u redu #%number%."
+            label:          Uvoz
+            success:        "Datoteka je uspješno uvezena."
+            entity:         Uvoz %entityName%
+            tempate:        Preuzmi predložak podataka
+            file:           Datoteka
+            strategy:       Strategija
+
+"Identity only": "Samo identitet"

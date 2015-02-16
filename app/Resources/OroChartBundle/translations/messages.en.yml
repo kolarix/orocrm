@@ -1,0 +1,36 @@
+oro:
+  chart:
+      no_data: Nema Podataka
+      form:
+          name.label: Vrsta grafikona
+          chart_empty_value: Nijedan
+      line_chart:
+          label: Linijski grafikon
+          params:
+              label: Kategorija (X os)
+              value: Vrijednost (Y os)
+          settings:
+              connect_dots_with_line: Spoji točke sa linijom
+      multiline_chart:
+          label: Linijski grafikon
+          params:
+              label: Kategorija (X os)
+              value: Vrijednost (Y os)
+          settings:
+              connect_dots_with_line: Spoji točke sa linijom
+      bar_chart:
+          label: Stupčasti grafikon
+          params:
+              label: Kategorija (X os)
+              value: Vrijednost (Y os)
+      pie_chart:
+          label: Kružni grafikon
+          params:
+              label: Dio oznaka
+              value: Dio vrijednost
+      flow_chart:
+          label: Dijagram toka
+          params:
+              label:     Oznaka
+              value:     Vrijednost
+              is_nozzle: Korak

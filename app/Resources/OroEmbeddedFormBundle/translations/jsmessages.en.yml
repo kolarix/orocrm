@@ -1,0 +1,5 @@
+embedded_form:
+    confirm_box:
+        title: "Promijeni tip forme"
+        ok_text: "Da, nastavi"
+        content: "Vaše promijene će biti izgubljene."

@@ -1,0 +1,11 @@
+oro:
+  dashboard:
+    drop_placeholder_label: Povucite svoj widget ovdje.
+    add_dashboard_widgets:
+      title: Widgeti Upravljačke Ploče
+      adding: Dodavanje...
+    widget:
+      collapse: Zatvori
+      expand: Otvori
+      move: Pomakni
+      remove: Obriši

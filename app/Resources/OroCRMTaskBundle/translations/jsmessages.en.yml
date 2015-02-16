@@ -1,0 +1,7 @@
+"Zadatak uspješno dodan": "Zadatak uspješno dodan"
+"Dodaj zadatak": "Dodaj zadatak"
+orocrm:
+    task:
+        assigned_tasks_widget:
+            settings: Postavke Widgeta Zadaci
+            number_of_tasks: Broj zadataka za prikaz

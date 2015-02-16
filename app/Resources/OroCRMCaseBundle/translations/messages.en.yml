@@ -1,0 +1,109 @@
+orocrm:
+    case:
+        widgets:
+            account_cases: Slučajevi
+            contact_cases: Slučajevi
+
+        datagrid:
+            case_number.label:              ID Slučaja
+            subject.label:                  Predmet
+            related_contact.label:          Povezani Kontakt
+            related_account.label:          Povezani Klijent
+            owner.label:                    Vlasnik
+            assigned_to.label:              Dodijeljeno
+            reported_on.label:              Prijavljeno
+            closed_on.label:                Zatvoreno
+            source.label:                   Izvor
+            status.label:                   Status
+            priority.label:                 Prioritet
+
+        menu:
+            index.label: Slučajevi
+
+        caseentity:
+            #
+            # OroCRM/Bundle/CaseBundle/Entity/CaseEntity
+            #
+            entity_label:                   Slučaj
+            entity_plural_label:            Slučajevi
+            entity_description:             Predstavlja slučaj
+            subject.label:                  Predmet
+            description.label:              Opis
+            resolution.label:               Odluka
+            owner.label:                    Vlasnik
+            assigned_to.label:              Dodijeljeno
+            closed_at.label:                Zatvoreno
+            reported_at.label:              Prijavljeno
+            related_contact.label:          Povezani Kontakt
+            related_account.label:          Povezani Klijent
+            source.label:                   Izvor
+            status.label:                   Status
+            priority.label:                 Prioritet
+            comments.label:                 Komantari
+            id.label:                       Id
+            organization.label:             Organizacija
+
+        casecomment:
+            #
+            # OroCRM/Bundle/CaseBundle/Entity/CaseComment
+            #
+            entity_label:                   Komantar Slučaja
+            entity_plural_label:            Komantari Slučaja
+            entity_description:             Predstavlja komentare Slučaja
+            message.label:                  Poruka
+            public.label:                   Napravi Javnim
+            contact.label:                  Kontaktiraj Autora
+            case.label:                     Povezani slučaj
+            updated_by.label:               Ažurirao
+            owner.label:                    Vlasnik
+            id.label:                       Id
+            organization.label:             Organizacija
+            attachment.label:               Privitak
+
+            action:
+                add: Dodaj Komentar
+                edit: Uredi Komentar
+                delete: Obriši Komentar
+            dialog:
+                add: Dodaj Komentar
+                edit: Uredi Komentar
+            message:
+                saved: Komentar Spremljen
+                removed: Komentar Obrisan
+                no_records: Nema komentara.
+                delete_confirmation: Jeste li sigurni da želite obrisati ovaj komentar?
+                updated_by: Ažurirao {{ user }}, {{ date }}
+            error:
+                load: Nažalost, komentari se nisu ispravno učitali.
+                delete: Nažalost, brisanje komentara neuspjelo.
+
+        casepriority:
+            entity_label:                   Prioritet Slučaja
+            entity_plural_label:            Prioriteti Slučaja
+            entity_description:             Predstavlja Prioritet Slučaja
+            name.label:                     Ime
+            label.label:                    Oznaka
+            order.label:                    Poredak
+
+        casesource:
+            entity_label:                   Izvor Slučaja
+            entity_plural_label:            Izvori Slučaja
+            entity_description:             Predstavlja Izvor Slučaja
+            name.label:                     Ime
+            label.label:                    Oznaka
+
+        casestatus:
+            entity_label:                   Status Slučaja
+            entity_plural_label:            Statusi Slučaja
+            entity_description:             Predstavlja Status Slučaja
+            name.label:                     Ime
+            label.label:                    Oznaka
+            order.label:                    Poredak
+
+        block:
+            additional: Dodatno
+            comments:   Komentari
+            general:    Opće informacije
+
+        message:
+            saved: Slučaj spremljen

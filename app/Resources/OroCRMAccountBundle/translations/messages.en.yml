@@ -11,8 +11,8 @@ orocrm:
         menu:
             customers_tab.label: Korisnici
             account_list.description: Popis klijenata
-            shortcut_new_account.label: Napravi novog klijenta
-            shortcut_new_account.description: Napravi novog klijenta
+            shortcut_new_account.label: Dodaj klijenta
+            shortcut_new_account.description: Dodaj klijenta
             shortcut_list_accounts.label: Prikaži popis klijenata
             shortcut_list_accounts.description: Popis klijenata
         widgets:

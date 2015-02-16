@@ -1,0 +1,57 @@
+oro:
+    attachment:
+        entity_label:        Privitak
+        entity_plural_label: Privitci
+        entity_description:  Predstavlja privitka
+
+        id.label:            Id
+        comment.label:       Komentar
+        file.label:          Datoteka
+        owner.label:         Vlasnik
+        organization.label:  Organizacija
+
+        block_titles:
+            attachments.label:  Privitci
+
+        enabled:              Omogući privitke
+        maxsize:              Maksimalna veličina, Mb
+        mimetypes:            Dozvoljeni mime tipovi
+
+        file:
+            entity_label:            Datoteka
+            entity_plural_label:     Datoteke
+            entity_description:      Pohrana datoteka
+
+            id.label:                Id
+            filename.label:          Ime datoteke
+            original_filename.label: Originalno ime datoteke
+            filepath.label:          Putanja datoteke
+            owner.label:             Vlasnik
+            extension.label:         Ekstenzija
+            file.label:              Datoteka
+            delete_file.label:       Obriši
+            file_size.label:         Veličina
+            mime_type.label:         Mime tip
+
+        config:
+            file_size.label:     Veličina datoteke
+            thumb_width.label:   Širina slike za prikaz
+            thumb_height.label:  Visina slike za prikaz
+            attachment.label:    Upload Postavke
+            mime_types.label:    Mime tipovi
+            upload_file_mime_types.label:  Mime tipovi datoteke
+            upload_image_mime_types.label: Mime tipovi slike
+
+        action:
+            add:                 Dodaj privitak
+            update:              Ažuriraj privitak
+            saved:               Privitak uspješno spremljen
+            button:
+                update:          Ažuriraj
+                delete:          Obriši
+
+    entity_extend:
+        form:
+            data_type:
+                file:  Datoteka
+                image: Slika

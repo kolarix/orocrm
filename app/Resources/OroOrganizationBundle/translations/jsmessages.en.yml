@@ -1,0 +1,5 @@
+oro:
+    business_unit:
+        form:
+            choose_business_user: Odaberite poslovnu jedinicu...
+            none_business_user:   Ništa

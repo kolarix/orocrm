@@ -1,0 +1,83 @@
+oro:
+    query_designer:
+        aggregates:
+            identifier:
+                Count:
+                    name: Brojanje
+                    hint: Broj stavki
+            string:
+                Count:
+                    name: Brojanje
+                    hint: Broj stavki
+            number:
+                Count:
+                    name: Brojanje
+                    hint: Broj stavki
+                Sum:
+                    name: Zbroj
+                    hint: Zbroj svih vrijednosti
+                Avg:
+                    name: Prosjek
+                    hint: Prosjek vrijednosti
+                Min:
+                    name: Min
+                    hint: Minimalna vrijednost
+                Max:
+                    name: Max
+                    hint: Maximalna vrijednost
+
+    report:
+        menu:
+            manage_reports.label:   Upravljanje izvješćima
+        type:
+            table: Tablica
+        datagrid:
+            column:
+                name:               Ime
+                entity:             Objekt
+                report_type:        Tip izvješća
+        form:
+            designer:               Dizajner
+            chart_designer:         Dizajner grafa
+            columns:                Stupci
+            grouping:               Grupiranje
+            filters:                Filteri
+            choose_report_type:     Izaberi tip izvješća...
+
+        chart_options.label: Opcije grafa
+        definition.label:    Definicija
+        description.label:   Opis
+        entity.label:        Objekt
+        entity_label:        Izvješće
+        entity_description:  Predstavlja izvještaj
+        entity_plural_label: Izvješća
+        id.label:            Id
+        name.label:          Ime
+        owner.label:         Vlasnik
+        type.label:          Tip izvješća
+        organization.label:  Organizacija
+
+        reporttype:
+            entity_label:        Tip izvješća
+            entity_plural_label: Tipovi izvješća
+            entity_description:  Predstavlja tipove izvješća
+            name.label:          Ime
+            label.label:         Oznaka
+            chart.label:         Graf
+            hasChart:
+                label:   Dizajn izvješća
+                tooltip: Dodaj graf u izvješće
+
+"New Report": Novo izvješće
+"Manage Custom Reports": Upravljanje izvješćima
+"Manage Custom Reports - Reports": Upravljanje izvješćima - Izvješća
+"Create Report - Reports": Napravi Izvješće - Upravljanje izvješćima
+"%report.name% - Edit - Reports": %report.name% - Uredi - Izvješća
+"%report.name% - Reports": %report.name% - Izvješća
+
+"Edit report": Uredi izvješće
+"Delete report": Obriši izvješće
+"Are you sure you want to delete this report?": Jeste li sigurni da želite obrisati izvješće?
+"Report deleted": Izvješće obrisano
+"Report saved": Izvješće spremljeno
+"Invalid report configuration": Nema podataka za prikaz. Uredite izvješće i provjerite njegovu konfiguraciju.

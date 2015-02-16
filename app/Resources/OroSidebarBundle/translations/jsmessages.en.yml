@@ -1,0 +1,10 @@
+oro.sidebar:
+  widget:
+    add:
+      dialog:
+        title: "Odaberi widget za dodavanje"
+      content:
+        section_title: "Dodaj widget"
+    remove:
+      confirm:
+        message: "Ovaj widget će biti uklonjen"

@@ -1,0 +1,20 @@
+orocrm:
+    marketing:
+        list:
+            change_entity_confirmation: Podaci u predlošku mogu sadržavati varijable povezane za prethodno odabrani objekt. Želite li obrisati sve podatke u predlošku?
+    marketinglist:
+        refresh_dialog:
+            content: Potvrdite ažuriranje popisa
+            success: Marketinški popis uspješno ažuriran
+        remove_dialog:
+            confirm_title: Ukloni Potvrdu
+            confirm_ok: Da
+            confirm_cancel: Odustani
+            content: Želite li obrisati ovu stavku?
+            success: Obrisano.
+        unremove_dialog:
+            confirm_title: Poništi Uklanjanje Potvrde
+            confirm_ok: Da
+            confirm_cancel: Odustani
+            content: Želite li poništiti brisanje ove stavke?
+            success: Poništeno.

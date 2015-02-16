@@ -1,0 +1,67 @@
+"Address manipulation": "Upravljanje adresama"
+"View list of addresses": "Pogledaj popis adresa"
+"View address": "Pogledaj adresu"
+"Edit address": "Uredi adresu"
+"Create address": "Dodaj adresu"
+"Remove address": "Obriši adresu"
+
+oro:
+    address:
+        city.label:          Grad
+        country.label:       Država
+        entity_description:  Predstavlja adresu
+        entity_label:        Adresa
+        entity_plural_label: Adrese
+        first_name.label:    Ime
+        id.label:            Id
+        label.label:         Oznaka
+        last_name.label:     Prezime
+        middle_name.label:   Srednje ime
+        name_prefix.label:   Prefiks
+        name_suffix.label:   Sufiks
+        organization.label:  Organizacija
+        postal_code.label:   Poštanski broj
+        region.label:        Županija
+        region_text.label:   Županije
+        street.label:        Ulica
+        street2.label:       Ulica (2)
+
+        country_name.label:      Ime države
+        country_iso2_code.label: ISO2 kod države
+        country_iso3_code.label: ISO3 kod države
+        region_name.label:       Ime regije
+        region_code.label:       ISO kod regije
+
+        form:
+            choose_country: "Odaberi državu..."
+            choose_region:  "Odaberi regiju..."
+
+        region:
+            entity_label:        Regija
+            entity_plural_label: Regije
+            entity_description:  Predstavlja regiju adrese
+            name.label:          Ime
+            country.label:       Država
+            combined_code.label: Spojeni kod
+            code.label:          Kod
+
+            country_name.label:      Ime Države
+            country_iso2_code.label: ISO2 kod države
+            country_iso3_code.label: ISO3 kod države
+
+        country:
+            entity_label:         Država
+            entity_plural_label:  Države
+            entity_description:   Predstavlja državu drese
+            regions.label:        Županije
+            name.label:           Ime
+            iso3_code.label:      ISO3 kod
+            iso2_code.label:      ISO2 kod
+        addresstype:
+            entity_label:         Tip Adrese
+            entity_plural_label:  Tipovi Adrese
+            entity_description:   Predstavlja tim adrese
+            name.label:           Ime
+            label.label:          Oznaka
+        action:
+            read_dictionaries: "Pročitaj rječnik adresa"

@@ -1,0 +1,16 @@
+oro.tracking:
+    form.tooltip:
+        dynamic_tracking_enabled: |
+            Omogućeno praćenje u stvarnom vremenu.
+            Pazite, ovo bi moglo utjecati na performanse.
+        log_rotate_interval: |
+            Interval bilježenja.
+            Ova opcija je obavezna samo za ne dinamično praćenje.
+        piwik_host: |
+            Piwik analytics URL adresa.
+            U slučaju da je ova opcija postavljenja sve informacije idu kroz Piwik.
+        piwik_token_auth: |
+            Piwik API Token auth. Za dijeljenje informacija sa Piwikom u stvarno vremenu.
+            Ovaj token_auth čuvajte kao korisničko ime i lozinku, <strong>ne dijelite ga!</strong>
+        identifier: |
+            U slučaju kada je Piwik sinkronizacija omogućena treba biti isto kao Piwik id web stranice.

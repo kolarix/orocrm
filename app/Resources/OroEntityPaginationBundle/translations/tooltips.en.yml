@@ -1,0 +1,2 @@
+oro.entity_pagination.system_configuration.fields.enabled.tooltip: 'Idite na prethodnu ili sljedeću mrežu objekata od stranice pregleda'
+oro.entity_pagination.system_configuration.fields.limit.tooltip: 'Maksimalan broj zapisa koji je podržan zapisom obilježavanja stranica'

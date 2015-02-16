@@ -1,0 +1,63 @@
+oro:
+    cron:
+        action:
+            jobs_management: Upravljanje poslovima
+
+        header:
+            command:      Komanda
+            error:        Prikaz greške
+            id:           ID
+            jobs:         Poslovi
+            memory:       Iskorištenost memorije, MB
+            output:       Prikaz
+            priority:     Prioritet
+            queue:        Red
+            retry:        Porušaj ponovno
+            runtime:      Vrijeme rada, s
+            state:        Stanje
+            statistics:   Statistika
+            trace:        Praćenje
+            view:         Pogledaj
+            job:          'Posao "%name%"'
+
+        menu:
+            cron_job.description:          Red cron poslova
+            cron_job.label:                Red poslova
+            cron_job_shortcut.label:       Popis poslova
+            cron_job_shortcut.description: Popis cron poslova
+
+        message:
+            start:
+                fail:     Daemon nije pokrenut
+                success:  Daemon pokrenut
+            stop:
+                fail:     Daemon nije zaustavljen
+                success:  Daemon zaustavljen
+
+        sidebar:
+            check:        Status
+            not_running:  Nije pokrenut
+            pid:          Daemon PID
+            run:          Pokreni daemon
+            running:      Pokrenut
+            status:       Daemon status
+            stop:         Zaustavi daemon
+
+        view:
+            dependencies: Dependencies
+            in_deps:      Nadolazeće Dependencies
+            original:     Originalni Posao
+            related:      Povezana Svojstva
+            related:      Povezana Svojstva
+
+        job:
+            status:
+                new:        Novo
+                pending:    Čeka
+                canceled:   Otkazano
+                running:    Pokrenuto
+                finished:   Završeno
+                failed:     Neuspjelo
+                terminated: Prekinuto
+                incomplete: Nepotpuno
+                unknown:    Nepoznato

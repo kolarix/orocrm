@@ -1,0 +1,38 @@
+"Stavka obrisana": "Stavka obrisana"
+oro_datagrid:
+    no_data_hint %entityHint%: "%entityHint% ne postoji."
+    not_found_hint %entityHint%:  "%entityHint% wnije pronađen. Pokušajte promijeniti kriterije pretrage ..."
+    label_add_filter: Upravljanje filterima
+    label_loading_mask: "Učitavanje . . ."
+
+oro:
+    grid:
+        mass_action:
+            label: Višestruka Akcija
+            selected_rows: Označeni Redovi
+            confirm_title: Potvrda Višestruke Akcije
+            confirm_content: Jeste li sigurni?
+            confirm_ok: Da
+            error_title: Greška
+            error_content: Nemoguće izvršiti višestruku akciju
+            delete:
+                label: Obriši
+                confirm_title: Potvrda višestrukog brisanja
+                confirm_content: Jeste li sigurni da želite obrisati označene stavke?
+                success_message: "{0} Ništa nije obrisano|{1} Jedna stavka obrisana|]1,Inf[ %count% stavke/i obrisano"
+        datagrid.page_size.all: Sve
+        export.csv: CSV
+        open_link: Otvori
+
+        action:
+            view: Pogledaj
+            update: Uredi
+            delete: Obriši
+            clone: Kopiraj
+
+        system_configuration:
+            groups:
+                look_and_feel.title: 'Postavke Izgleda'
+                grid_settings.title: 'Postavke Mreže Podataka'
+            fields:
+                default_per_page.label: 'Stavki po stranici'

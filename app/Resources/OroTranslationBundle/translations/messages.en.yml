@@ -1,0 +1,13 @@
+oro.translation:
+    download:
+        error: 'Greška pri preuzimanju'
+
+    system_configuration:
+        fields:
+            available_translations.label: 'Dostupni prijevodi'
+
+    action:
+        download: 'Preuzmi'
+        enable: 'Omogući'
+        disable: 'Onemogući'
+        update: 'Ažuriraj'

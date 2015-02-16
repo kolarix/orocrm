@@ -1,0 +1,179 @@
+Add Address: Dodaj Adresu
+oro.importexport.import.orocrm_contact.add_or_replace: Dodaj i Zamijeni
+oro.importexport.import.orocrm_contact.add: Dodaj
+orocrm:
+    dashboard:
+        my_contacts_activity:
+            title:       Nedavno pregledani kontakti
+            view_all:    Pogledaj sve
+            description: Ovaj widget prikazuje popis nedavno pregledanih kontakata
+
+    contact:
+        menu:
+            contact_group_list.description:         Popis grupa kontakata
+            contact_list.description:               Popis kontakata
+            shortcut_list_contacts.description:     Popis kontakata
+            shortcut_list_contacts.label:           Prikaži popis kontakata
+            shortcut_new_contact.description:       Dodaj novi kontakt
+            shortcut_new_contact.label:             Dodaj novi kontakt
+            shortcut_new_contact_group.description: Dodaj novu grupu kontakata
+            shortcut_new_contact_group.label:       Dodaj novu grupu kontakata
+        controller:
+            contact_group.saved.message: Grupa kontakata spremljena
+            contact.saved.message:       Kontakt spremljen
+
+        #
+        # Form
+        #
+        form:
+            choose_contact:        Odaberi kontakt...
+            choose_contact_method: Odaberi način kontakta...
+            choose_phone:          Odaberi telefon...
+        #
+        # DataGrid
+        #
+        datagrid:
+            contact_name: Ime kontakta
+            delete:       Obriši
+            view:         Pogledaj
+            update:       Ažuriraj
+
+        #
+        # Entity oroCRM\Bundle\ContactBundle\Entity\Contact
+        #
+        entity_description:  Predstavlja kontakt
+        entity_label:        Kontakt
+        entity_plural_label: Kontakti
+
+        import: Uvezi Kontakte
+
+        accounts.label:      Klijenti
+        add_entity:          Dodaj kontakt
+        addresses.label:     Adrese
+        assigned_to.label:   Dodijeljeno
+        birthday.label:      Datum rođenja
+        created_by.label:    Napravio
+        description.label:   Opis
+        email.label:         Email
+        emails.label:        Emailovi
+        facebook.label:      Facebook
+        fax.label:           Faks
+        first_name.label:    Ime
+        gender.label:        Spol
+        google_plus.label:   Google+
+        groups.label:        Grupe
+        id.label:            Id
+        linked_in.label:     LinkedIn
+        job_title.label:     Radno mjesto
+        last_name.label:     Prezime
+        method.label:        Način kontakta
+        middle_name.label:   Srednje ime
+        name_prefix.label:   Prefiks
+        name_suffix.label:   Sufiks
+        owner.label:         Vlasnik
+        reports_to.label:    Odgovara
+        phones.label:        Telefoni
+        primary_email.label: Glavni Email
+        primary_phone.label: Glavni Telefon
+        skype.label:         Skype
+        social.label:        Društvene mreže
+        source.label:        Izvor
+        twitter.label:       Twitter
+        updated_by.label:    Ažurirao
+        picture.label:       Slika
+        organization.label:  Organizacija
+
+        #
+        # Entity oroCRM\Bundle\ContactBundle\Entity\ContactAddress
+        #
+        contactaddress:
+            city.label:          Grad
+            country.label:       Država
+            entity_description:  Predstavlja adresu kontakta
+            entity_label:        Adresa Kontakta
+            entity_plural_label: Adrese Kontakta
+            first_name.label:    Ime
+            id.label:            Id
+            label.label:         Oznaka
+            last_name.label:     Prezime
+            middle_name.label:   Srednje ime
+            name_prefix.label:   Prefiks
+            name_suffix.label:   Sufiks
+            organization.label:  Organizacija
+            owner.label:         Vlasnik
+            postal_code.label:   Poštanski broj
+            primary.label:       Glavni
+            region.label:        Županija
+            region_text.label:   Županija
+            street.label:        Ulica
+            street2.label:       Ulica (2)
+            types.label:         Tipovi
+
+            country_name.label:      Ime države
+            country_iso2_code.label: ISO2 kod države
+            country_iso3_code.label: ISO3 kod države
+            region_name.label:       Ime županije
+            region_code.label:       ISO kod županije
+
+        #
+        # Entity oroCRM\Bundle\ContactBundle\Entity\ContactEmail
+        #
+        contactemail:
+            email.label:         Email
+            entity_description:  Predstavlja kontaktov email
+            entity_label:        Email Kontakta
+            entity_plural_label: Emailovi Kontakta
+            id.label:            Id
+            owner.label:         Vlasnik
+            primary.label:       Glavni
+
+        #
+        # Entity oroCRM\Bundle\ContactBundle\Entity\ContactPhone
+        #
+        contactphone:
+            entity_description:  Predstavlja kontaktov telefon
+            entity_label:        Telefon Kontakta
+            entity_plural_label: Telefoni Kontakta
+            id.label:            Id
+            owner.label:         Vlasnik
+            phone.label:         Telefon
+            primary.label:       Glavni
+
+        #
+        # Entity oroCRM\Bundle\ContactBundle\Entity\Group
+        #
+        group:
+            entity_description:  Predstavlja grupe kontakata
+            entity_label:        Grupa Kontakata
+            entity_plural_label: Grupe Kontakata
+            id.label:            Id
+            label.label:         Oznaka
+            manage:              Upravljaj grupama
+            owner.label:         Vlasnik
+            organization.label:  Organizacija
+            has_group.label:     Ime grupu
+
+        #
+        # Entity oroCRM\Bundle\ContactBundle\Entity\Method
+        #
+        method:
+            entity_description:  Predstavlja način kontakta
+            entity_label:        Način Kontakta
+            entity_plural_label: Načini Kontakta
+            label.label:         Oznaka
+            name.label:          Ime
+
+        #
+        # Entity oroCRM\Bundle\ContactBundle\Entity\Source
+        #
+        source:
+            entity_description:  Predstavlja izvor kontakta
+            entity_label:        Izvor Kontakta
+            entity_plural_label: Izvori Kontakta
+            label.label:         Oznaka
+            name.label:          Ime
+        widgets:
+            account_contacts: Kontakti
+
+        account:
+            no_contacts_exist: Nema kontakata

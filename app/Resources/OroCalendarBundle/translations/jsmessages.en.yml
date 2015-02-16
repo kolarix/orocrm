@@ -1,0 +1,36 @@
+oro:
+    calendar:
+        control:
+            all_day: " "
+            today:   danas
+            month:   mjesec
+            week:    tjedan
+            day:     dan
+        error_message:
+            event_model:
+                end_date_earlier_than_start: "Datum kraja ne može biti prije od datuma početka"
+"Dodaj Događaj": "Dodaj Događaj"
+"Pogledaj Događaj": "Pogledaj Događaj"
+"Uredi Događaj": "Uredi Događaj"
+"Ovaj kalendar već postoji.": "Ovaj kalendar već postoji."
+"Dodavanje kalendara, pričekajte ...": "Dodavanje kalendara, pričekajte ..."
+"Kalendar je dodan.": "Kalendar je dodan."
+"Brisanje kalendara, pričekajte ...": "Brisanje kalendara, pričekajte ..."
+"Kalendar je obrisan.": "Kalendar je obrisan."
+"Ažuriranje kalendara, pričekajte ...": "Ažuriranje kalendara, pričekajte ..."
+"Kalendar je ažuriran.": "Kalendar je ažuriran."
+"Nažalost, događaji se nisu ispravno učitali": "Nažalost, događaji se nisu ispravno učitali"
+"Nažalost, događaj se nije ispravno spremio": "Nažalost, događaj se nije ispravno spremio"
+"Nažalost, dodavanje kalendara je neuspjelo": "Nažalost, dodavanje kalendara je neuspjelo"
+"Nažalost, isključivanje kalendara je neuspjelo": "Nažalost, isključivanje kalendara je neuspjelo"
+"Nažalost, ažuriranje kalendara je neuspjelo": "Nažalost, ažuriranje kalendara je neuspjelo"
+"Nažalost, pojavila se greška pri sinkronizaciji": "Nažalost, pojavila se greška pri sinkronizaciji"
+"Kalendar se ne može mijenjati, događaj ima goste": "Kalendar se ne može mijenjati, događaj ima goste"
+"Obavijesti goste naslov": "Obavijest o potvrdi"
+"Obavijesti goste poruka": "Želite li obavijestiti sve pozvane o promjenama?"
+"Obavijesti": "Obavijesti"
+"Nemoj obavijestiti": "Nemoj obavijestiti"
+"Ne odgovoreno": "Ne odgovoreno"
+"Uvjetno prihvaćeno": "Uvjetno prihvaćeno"
+"Prihvaćeno": "Prihvaćeno"
+"Podsjetnici": "Podsjetnici"

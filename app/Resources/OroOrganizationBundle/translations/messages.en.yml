@@ -1,0 +1,55 @@
+"Choose an organization...": Odaberite organizaciju...
+
+oro:
+    custom_entity:
+        owner.label:          Vlasnik
+        owner.description:    ""
+
+    business_unit:
+        menu:
+            list.description: Popis poslovnih jedinica
+        controller:
+            message:
+                saved: Poslovna Jedinica spremljena
+        form:
+            choose_business_user: Odaberite poslovnu jedinicu...
+            none_business_user: Ništa
+        datagrid:
+            action:
+                view:   Pogledaj
+                update: Ažuriraj
+                delete: Obriši
+            owner: Glavna Poslovna Jedinica
+            has_business_unit: Ima poslovnu jedinicu
+
+    organization:
+        entity_label:         Organizacija
+        entity_plural_label:  Organizacije
+        entity_description:   Predstavlja organizaciju
+        id.label:          Id
+        name.label:        Ime
+        description.label: Opis
+        enabled.label:     Status
+        business_units.label: Poslovna jedinica
+        users.label:       Korisnici
+        form:
+            choose_organization: Odaberi organizaciju...
+
+        businessunit:
+            email.label:         Email
+            entity_description:  Predstavlja poslovnu jedinicu
+            entity_label:        Poslovna jedinica
+            entity_plural_label: Poslovne jedinice
+            fax.label:           Faks
+            id.label:            Id
+            name.label:          Ime
+            organization.label:  Organizacija
+            owner.label:         Vlasnik
+            parent.label:        Glavna poslovna jedinica
+            phone.label:         Telefon
+            users.label:         Korisnici
+            website.label:       Web
+
+        controller:
+            message:
+                saved: Organizacija spremljena

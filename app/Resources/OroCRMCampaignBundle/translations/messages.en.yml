@@ -1,0 +1,145 @@
+orocrm:
+    campaign:
+        entity_description:  Marketinške kampanje
+        entity_label:        Kampanja
+        entity_plural_label: Kampanje
+        id.label:            Id
+        name.label:          Ime
+        code.label:          Kod
+        combined_name.label: Spojeno ime
+        start_date.label:    Datum početka
+        end_date.label:      Datum završetka
+        description.label:   Opis
+        budget.label:        Proračun
+        owner.label:         Vlasnik
+        
+        report_refresh_date.label: Datum ažuriranja izvješća
+        form:
+            choose_campaign: Odaberi kampanju
+        report_period:
+            label: Učestalost izvješća
+            hour:  Po satu
+            day:   Dnevno
+            month: Mjesečno
+        controller:
+            campaign.saved.message:  "Kampanja spremljena"
+        menu:
+            marketing_tab.label: Marketing
+        datagrid:
+            actions:
+                view.label: Pogledaj
+                update.label: Ažuriraj
+                delete.label: Obriši
+
+        block:
+            general: Opće informacije
+            events: Događanja
+            detailed_report: Detaljan izvještaj događanja
+
+        trackingevent:
+            report:
+                visits_count.label: Broj pogleda
+                date.label:           Datum
+
+        tracking_code:
+            label: Kod za praćenje
+            info: |
+                Za praćenje kampanje dodajte <code>?pk_campaign=%campaignCode%</code> u vaš URL.
+                Druga opcija je dodati <code>_paq.push(['setCampaignName', '%campaignCode%']);</code>
+                u skriptu za praćenje nakon <strong>setUserId</strong> poziva.
+        dashboard:
+            campaigns_leads:
+                title: Potencijalni klijenti kampanje
+                description: Ovaj widget prikazuje broj mogućih klijenata proizvedeno iz 5 zadnjih dodanih kampanja u obliku grafikona.
+            campaigns_opportunity:
+                title: Kampanje koje proizvode priliku
+                description: Ovaj widget prikazuje najboljih 5 kampanja koje proizvode najveći broj prilika.
+            campaigns_by_close_revenue:
+                title: Kampanje po zaključnom prihodu
+                description: Ovaj widget prikazuje najboljih 5 kampanja koje proizvode najviše prihoda.
+        organization:
+            label: Organizacija
+
+        emailcampaign:
+            entity_description:  Marketinške email kampanje
+            entity_label:        Email Kampanja
+            entity_plural_label: Email Kampanje
+            id.label:            Id
+            name.label:          Ime
+            sender_email.label:  Email Pošiljatelja
+            sender_name.label:   Ime Pošiljatelja
+            description.label:   Opis
+            organization.label:  Organizacija
+
+            transport.label:          Isporuka
+            transport_settings.label: Postavke Isporuke
+
+            schedule:
+                label:    Raspored
+                manual:   Ručno
+                deferred: Odgođeno
+
+            scheduled_for.label:  Zakazano Za
+            owner.label:          Vlasnik
+            marketing_list.label: Marketinški popis
+            template.label:       Predložak
+            created_at.label:     Napravljeno
+            updated_at.label:     Ažurirano
+            campaign.label:       Kampanja
+            sent.label:           Poslano
+            sent_at.label:        Poslano
+            status:
+                sent: Poslano
+                not_sent: Nije poslano
+            block:
+                general: Opće Informacije
+                email_settings: Email Postavke
+                recipients: Primatelji
+                status: Rezultati kampanje
+            controller:
+                saved.message: "Email kampanja spremljena"
+                sent: "Email kampanja je poslana"
+            datagrid:
+                actions:
+                    view.label: Pogledaj
+                    update.label: Ažuriraj
+                    delete.label: Obriši
+                campaignContactedTimes: Kampanja kontaktirana
+                campaignLastContactedAt: Kampanja zadnji put kontaktirana
+            send: Pošalji
+            system_configuration:
+                campaign_sender_email: Email Pošiljatelja
+                campaign_sender_name: Ime Pošiljatelja
+            transport:
+                internal: CRM
+            stats:
+                open.label: Otvoreno
+                click.label: Klik
+                bounce.label: Odbij
+                abuse.label: Zloupotreba
+                unsubscribe.label: Ukloni pretplatu
+
+        acl:
+            send_emails: Pošalji emailove kampanje
+
+        emailcampaignstatistics:
+            entity_label: Statistike Email Kampanje
+            entity_plural_label: Statistike Email Kampanje
+            created_at.label: Napravljeno
+            email_campaign.label: Email Kampanja
+            id.label: Id
+            marketing_list_item.label: Stavka Marketinškog Popisa
+            block.label: Statistike Email Kampanje
+            abuse_count.label: Broj zloupotrebe
+            bounce_count.label: Broj odbijenih
+            click_count.label: Broj kliknutih
+            open_count.label: Broj otvorenih
+            unsubscribe_count.label: Broj uklonjenih pretplata
+            organization.label: Organizacija
+            owner.label: Vlasnik
+
+        internaltransportsettings:
+            entity_label: Unutarnje Postavke Isporuke Email Kampanje
+            entity_plural_label: Unutarnje Postavke Isporuke Email Kampanje
+            id.label: Id
+            template.label: Predložak

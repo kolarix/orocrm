@@ -1,0 +1,130 @@
+oro:
+    dashboard:
+        recent_emails:
+            title:       Zadnji emailovi
+            inbox:       Dolazni
+            sent:        Odlazni
+            view_all:    Pogledaj sve
+            description: Ovaj widget prikazuje vaše zadnje mailove
+
+    email:
+        controller.emailtemplate.saved.message: "Predložak spremljen"
+        form.choose_template:                   "Odaberi predložak..."
+        variable.not.found:                     N/A
+
+        system_configuration:
+            email_configuration: Email Postavke
+
+        emailtemplate:
+            entity_label:        Predložak
+            entity_plural_label: Predlošci
+            edit_entity:         Uredi email predložak "%name%"
+            clone_entity:        Kopiraj email predložak
+            entity_description:  Predstavlja email predložak
+            id.label:            Id
+            is_system.label:     Sistem id
+            is_editable.label:   Uređivanje moguće
+            name.label:          Ime predloška
+            owner.label:         Vlasnik
+            parent.label:        Roditelj
+            subject.label:       Predmet
+            content.label:       Sadržaj
+            entity_name.label:   Ime objekta
+            type.label:          Tip
+            translations.label:  Prijevodi
+            organization.label:  Organizacija
+
+            # sections for email template variables
+            variables:
+                system: 'Sistemske varijable'
+                entity: 'Varijable objekta'
+
+            action:
+                preview: Pregled
+                clone: Kopiraj
+
+            # email template system variables
+            organization_name:   Ime organizacije prijavljenog korisnika
+            user_name:           Korisničko ime prijavljenog korisnika
+            user_first_name:     Ime prijavljenog korisnika
+            user_last_name:      Prezime prijavljenog korisnika
+            user_full_name:      Ime i prezime prijavljenog korisnika
+            app_short_name:      Kratko ime aplikacije #@deprecated since 1.4 Provider\SystemVariablesProvider
+            app_full_name:       Puno ime aplikacije #@deprecated since 1.4 Provider\SystemVariablesProvider
+            app_url:             URL aplikacije
+            current_datetime:    Trenutni datum i vrijeme
+            current_date:        Trenutni datum
+            current_time:        Trenutno vrijeme
+
+        menu:
+            emailtemplate_list.description: Popis email predložaka
+            user_emails: Moji Emailovi
+
+        datagrid:
+            emailtemplate:
+                action:
+                    clone:  "Kopiraj"
+                    delete: "Obriši"
+                    update: "Ažuriraj"
+                filter:
+                    type:
+                        html: "Html"
+                        txt:  "Običan tekst"
+                    entityName:
+                        empty: Ništa
+                page_size:
+                    all: "Sve"
+                view:
+                    system_templates: "Samo sistem"
+            emails:
+                action:
+                    view: "Pogledaj"
+
+
+        handler:
+            attempt_save_system_template: "Mijenjanje sistemskih predložaka je zabranjeno, kopirajte ih."
+            unable_to_send_email:         "Nije moguće poslati email."
+
+        folders.label:            Datoteke
+        from_email_address.label: Od
+        from_name.label:          Od
+        email_body.label:         Sadržaj
+        entity_label:             Email
+        entity_plural_label:      Emailovi
+        entity_description:       Email poruka
+        id.label:                 Id
+        importance.label:         Važnost
+        internal_date.label:      Interni datum
+        message_id.label:         Id poruke
+        received_at.label:        Primljen na
+        recipients.label:         Primatelji
+        send_email:               Pošalji email
+        sent_at.label:            Poslano
+        sent_by.label:            poslao {{ user }}, {{ date }}
+        subject.label:            Predmet
+        x_message_id.label:       Id xPoruke
+        x_thread_id.label:        Id xPredmeta
+        template.label:           Predložak
+        type.label:               Tip
+
+        empty_body:               Prazan sadržaj
+        unable_to_load_body:      Nažalost email sadržaj se ne može učitati sa servera. Mogući razlozi: email je obrisan, izgubljena veza sa serverom.
+
+        entity_config:
+            email:
+                field:
+                    items:
+                        available_in_template: Dostupni email predlošci
+
+"%subject% - Email": "%subject% - Email"
+"Predmet": "Predmet"
+"Poslano": "Poslano"
+"Od": "Od"
+"Za": "Za"
+"Cc": "Cc"
+"Bcc": "Bcc"
+"Privitci": "Privitci"
+"Sadržaj": "Sadržaj"
+"Pošalji email": "Pošalji email"
+"Pošalji": "Pošalji"
+"Sadržaj": "Sadržaj"

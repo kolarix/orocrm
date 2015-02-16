@@ -1,0 +1,30 @@
+oro:
+    dataaudit:
+        module_label:           "Revizija podataka"
+        change_history:         "Promijeni povijest"
+        change_history.title:   "%item% promijeni povijest"
+
+        menu:
+            audit_list.label:       "Revizija Podataka"
+            audit_list.description: "Revizija Podataka"
+
+        datagrid:
+            author: Autor
+            logged_at: Prijavljen na
+            old_values: Stare vrijednosti
+            new_values: Nove vrijednosti
+            action: Akcija
+            version: Verzija
+            entity_type: Tip objekta
+            entity_name: Ime objekta
+            entity_id: Id objekta
+            data: Podaci
+            organization: Organizacija
+
+        entity_config:
+            entity:
+                items:
+                    auditable: Revizija moguća
+            field:
+                items:
+                    auditable: Revizija moguća

@@ -1,0 +1,245 @@
+oro:
+    dashboard:
+        my_sales_flow:
+            b2b: B2B
+            b2c: B2C
+    entityextend:
+        enums:
+            lead_source:
+                entity_label:         Izvor Mogućeg Klijenta
+                entity_plural_label:  Izvori Mogućeg Klijenta
+                entity_description:   Predstavlja popis svih izvora mogućih klijenata
+
+orocrm:
+    query_designer:
+        aggregates:
+            opportunity_status:
+                WonCount:
+                    name: Osvojeno
+                    hint: Broj 'osvojenih' stavki
+                LostCount:
+                    name: Izgubljeno
+                    hint: Broj 'izgubljenih' stavki
+                InProgressCount:
+                    name: U tijeku
+                    hint: Broj stavki 'u tijeku'
+            opportunity:
+                WonRevenueSumFunction:
+                    name: Zbroj osvojenih prihoda
+                    hint: Zbroj zaključnih prihoda za'osvojene' stavke
+
+    sales:
+        sections:
+            general:       Općenito
+            leads:         Mogući klijenti
+            opportunities: Prilike
+        dashboard:
+            opportunities_by_state:
+                title:       Prilike po statusu
+                description: Ovaj widget prikazuje sažetak prilika po statusu u obliku grafikona.
+            my_sales_flow_b2b_chart:
+                title:       Moj Tijek Prodaje B2B
+                description: Ovaj widget omogućuje brzi pregled B2B tijeka prodaje u obliku grafikona.
+            opportunities_by_lead_source_chart:
+                title:       Prilike po Izvoru Mogućih Klijenata
+                description: Ovaj widget omogućuje brzi pregled prilika po izvoru mogućih klijenata u obliku grafikona.
+        menu:
+            sales_tab.label: Prodaje
+            lead_list.description: Popis mogućih klijenata
+            b2bcustomer_list.description: Popis B2B korisnika
+            opportunity_list.description: Popis prilika
+            sales_salesfunnel_list.description: Popis prodajnih "lijevaka"
+            shortcut_list_leads.label: Prikaži popis mogućih klijenata
+            shortcut_list_leads.description: Popis mogućih klijenata
+            shortcut_list_opportunities.label: Prikaži popis prilika
+            shortcut_list_opportunities.description: Popis prilika
+            shortcut_new_lead.label: Dodaj mogućeg klijenta
+            shortcut_new_lead.description: Dodaj mogućeg klijenta
+            shortcut_new_opportunity.label: Dodaj priliku
+            shortcut_new_opportunity.description: Dodaj priliku
+            shortcut_list_b2bcustomers.label: Prikaži popis B2B korisnika
+            shortcut_list_b2bcustomers.description: Popis B2B korisnika
+        controller:
+            lead.saved.message: Mogući klijent spremljen
+            opportunity.saved.message: Prilika spremljena
+            sales_funnel.saved.message: Proces prodaje spremljen
+            b2bcustomer.saved.message: Korisnik spremljen
+        form:
+            choose_opportunity: Odaberi priliku....
+            choose_lead:        Odaberi mogućeg klijenta....
+            choose_b2bcustomer: Odaberi korisnika....
+            choose_close_rsn:   Odaberi razlog zatvaranja...
+
+        #
+        # OroCRM/Bundle/SalesBundle/Entity/LeadStatus.php
+        #
+        leadstatus:
+            entity_label:         Status Mogućeg Klijenta
+            entity_plural_label:  Statusi Mogućeg Klijenta
+            entity_description:   Predstavlja status mogućeg klijenta
+            name.label:           Ime
+            label.label:          Oznaka
+        #
+        # OroCRM/Bundle/SalesBundle/Entity/OpportunityStatus.php
+        #
+        opportunitystatus:
+            entity_label:         Status Prilike
+            entity_plural_label:  Statusi Prilike
+            entity_description:   Predstavlja status prilike
+            name.label:           Ime
+            label.label:          Oznaka
+        #
+        # OroCRM/Bundle/SalesBundle/Entity/Opportunity.php
+        #
+        opportunity:
+            entity_label:         Prilika
+            entity_plural_label:  Prilike
+            entity_description:   Predstavlja priliku
+            add_entity:           Dodaj priliku
+            id.label:             Id
+            name.label:           Ime prilike
+            close_date.label:     Datum zatvaranja
+            probability.label:    Vjerojatnost
+            budget_amount.label:  Iznos proračuna
+            close_revenue.label:  Zaključni prihod
+            customer_need.label:  Potrebe korisnika
+            proposed_solution.label: Predloženo riješenje
+            status.label:         Status
+            close_reason.label:   Razlog zatvaranja
+            contact.label:        Potencijalni korisnik
+            owner.label:          Vlasnik
+            notes.label:          Dodatni komentari
+            lead.label:           Mogući klijent
+            workflow_item.label:  Stavka tijeka rada
+            workflow_step.label:  Korak
+            organization.label:   Uređenje
+            customer.label:       B2B Korisnik
+            data_channel.label:   Kanal
+            assigned.label:       Dodijeljeno
+            datagrid:
+                view:     Pogledaj
+                update:   Ažuriraj
+                delete:   Obriši
+        #
+        # OroCRM/Bundle/SalesBundle/Entity/OpportunityCloseReason.php
+        #
+        opportunityclosereason:
+            entity_label:         Razlog Zatvaranja Prilike
+            entity_plural_label:  Razlozi Zatvaranja Prilike
+            entity_description:   Predstavlja razloge zatvaranja prilike
+            name.label:           Ime
+            label.label:          Oznaka
+        #
+        # OroCRM/Bundle/SalesBundle/Entity/Lead.php
+        #
+        lead:
+            entity_label:         Mogući klijent
+            entity_plural_label:  Mogući klijenti
+            entity_description:   predstavlja mogućeg klijenta
+            add_entity:           Dodaj mogućeg klijenta
+            id.label:             Id
+            name.label:           Naziv mogućeg klijenta
+            name_prefix.label:    Prefiks
+            first_name.label:     Ime
+            middle_name.label:    Srednje ime
+            last_name.label:      Prezime
+            name_suffix.label:    Sufiks
+            job_title.label:      Radno mjesto
+            phone_number.label:   Broj telefona
+            email.label:          Email
+            company_name.label:   Ime tvrtke
+            website.label:        Web
+            number_of_employees.label: Broj zaposlenih
+            industry.label:       Industrija
+            status.label:         Status
+            contact.label:        Kontakt
+            owner.label:          Vlasnik
+            address.label:        Adresa
+            details.label:        Detalji mogućeg klijenta
+            extend_source.label:  Izvor
+            source.label:         Izvor
+            notes.label:          Dodatni komentari
+            opportunities.label:  Prilike
+            workflow_item.label:  Stavka tijeka rada
+            workflow_step.label:  Korak
+            information:          Informacije mogućeg korisnika
+            campaign.label:       Kampanja
+            organization.label:   Organizacija
+            customer.label:       B2B Korisnik
+            data_channel.label:   Kanal
+            assigned.label:       Dodijeljeno
+            source:
+                unclassified:     Nesvrstano
+                others:           Drugi
+                none:             Ništa
+
+            extend_source:
+                unclassified:     Nesvrstano
+                others:           Drugi
+                none:             Ništa
+
+            datagrid:
+                country: Država
+                region: Županija
+                postal_code: Poštanski broj
+                view: Pogledaj
+                update: Ažuriraj
+                delete: Obriši
+
+        salesfunnel:
+            entity_label:         Proces Prodaje
+            entity_plural_label:  Procesi Prodaje
+            new_entity:           Novi Proces Prodaje
+            id.label:             'Prodaje #'
+            start_date.label:     Datum pošetka
+            lead.label:           Mogući klijent
+            opportunity.label:    Prilika
+            owner.label:          Vlasnik
+            workflow_item.label:  Stavka tijeka rada
+            workflow_step.label:  Korak
+            data_channel.label:   Kanal
+            organization.label:   Organizacija
+
+            hint: 'Proces Prodaje #%id%'
+
+            datagrid:
+                view:   Pogledaj
+                update: Ažuriraj
+                delete: Obriši
+        #
+        # OroCRM/Bundle/SalesBundle/Entity/B2bCustomer.php
+        #
+        b2bcustomer:
+            entity_label:               B2B korisnik
+            entity_plural_label:        B2B korisnici
+            entity_description:         Predstavlja B2B korisnika
+            id.label:                   Id
+            name.label:                 Ime
+            lifetime.label:             Vrijednost životnog vijeka prodaje
+            shipping_address.label:     Adresa Dostave
+            billing_address.label:      Adresa Naplate
+            account.label:              Račun
+            contact.label:              Kontakt
+            data_channel.label:         Kanal
+            leads.label:                Mogući klijenti
+            opportunities.label:        Prilike
+            owner.label:                Vlasnik
+            tags.label:                 Tagovi
+            ownership.label:            Vlasništvo
+            rating.label:               Ocijena
+            ticker_symbol.label:        Burzovni simbol
+            website.label:              Web stranica
+            employees.label:            Djelatnici
+            organization.label:         Uređenje
+            opportunities.select:       Odaberi prilike
+            leads.select:               Odaberi moguće klijente
+            datagrid:
+                view:   Pogledaj
+                update: Ažuriraj
+                delete: Obriši
+        widgets:
+            b2bcustomer_information: B2B Informacije Korisnika
+            leads:                   Mogući klijenti
+            opportunities:           Prilike
+        channel_type:
+            b2b.label: B2B

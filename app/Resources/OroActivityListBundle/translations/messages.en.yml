@@ -1,0 +1,40 @@
+oro:
+    activitylist:
+        entity_label:         Popis aktivnosti
+        entity_plural_label:  Popis aktivnosti
+        entity_description:   Predstavlja popis aktivnosi
+
+        id.label:             Id
+        owner.label:          Napravio
+        editor.label:         Ažurirao
+        verb.label:           Glagol
+        subject.label:        Predmet
+        data.label:           Podaci
+        organization.label:   Organizacija
+        related_activity_class.label: Povezana klasa aktivnosti
+        related_activity_id.label:    Povezan id aktivnosti
+        created_at.label: Napravljeno
+        updated_at.label: Ažurirano
+
+        no_activities_exist: Nema aktivnosti
+
+        widget:
+            load_more.title: Učitaj {{ count }} više
+        system_configuration:
+            activity_list.label: Popisi aktivnosti
+            fields:
+                sorting_field:
+                    label:     Razvrstaj po polju
+                    choices:
+                        createdAt: Datum izrade
+                        updatedAt: Datum ažuriranja
+                sorting_direction:
+                    label: Smjer razvrstavanja
+                    choices:
+                        DESC: Silazni
+                        ASC:  Uzlazni
+                per_page.label: Stavki po stranici
+
+        pagination:
+            page: Stranica:
+            total: od {{ pages }} | Ukupno {{ records }} zapisa

@@ -1,0 +1,143 @@
+oro:
+    dashboard:
+        calendar:
+            new_event: Novi Događaj
+            view_calendar: Moj Kalendar
+
+    calendar:
+        my_calendar:                Moj Kalendar
+        my_calendar_widget_title:   Današnji Kalendar
+        my_calendar_widget_description: Ovaj widget prikazuje današnji kalendar.
+        add_event:                  Dodaj Događaj
+        add_event.title:            Dodaj događaj
+        assign_event:               Dodijeli Događaj
+        assign_event.title:         Dodijeli događaj korisniku
+        assign_event.widget_title:  Dodijeli događaj %username%
+        delete_event.title:         Obriši događaj
+        delete_event.confirmation:  Jeste li sigurni da želite obrisati ovaj događaj?
+        print: Ispis
+        view_events:                Događaji
+        add_to_calendar:            Dodaj u %name%
+        organization_calendar:      Kalendar Organizacije
+
+        action:
+            public_calendar_management: Upravljanje sistemskim kalendarom
+            public_calendar_event_management: Upravljanje događajima sistemskog kalendara
+            system_calendar_event_management: Upravljanje događajima organizacijskog kalendara
+
+        system_configuration:
+            groups:
+                calendar_settings.title:  Postavke kalendara
+            fields:
+                calendar_colors.label:    Boje kalendara
+                event_colors.label:       Boje događaja
+
+        controller:
+            event.saved.message:          Događaj spremljen
+            systemcalendar.saved.message: Kalendar spremljen
+
+        form:
+            choose_user_to_add_calendar: "Odaberite korisnika za dodavanje..."
+
+        menu:
+            view_default: Moj Kalendar
+
+        context:
+            remove: Obriši kalendar
+            hide: Sakrij kalendar
+            show: Prikaži kalendar
+            edit_color: Uredi boju...
+
+        control:
+            all_day: ""
+            today:   danas
+            month:   mjesec
+            week:    tjedan
+            day:     dan
+
+        reminder_template:
+            due_message: počinje
+
+        #
+        # Oro/Bundle/CalendarBundle/Entity/Calendar
+        #
+        entity_label:        Kalendar
+        entity_plural_label: Kalendari
+        entity_description:  Predstavlja korisnikov kalendar
+        id.label:            Id
+        name.label:          Ime
+        events.label:        Događaji
+        owner.label:         Vlasnik
+        organization.label:  Organizacija
+
+        #
+        # Oro/Bundle/CalendarBundle/Entity/SystemCalendar
+        #
+        systemcalendar:
+            entity_label:         Sistemski Kalendar
+            entity_plural_label:  Sistemski Kalendari
+            entity_description:   Predstavlja sistemski kalendar
+            id.label:             Id
+            name.label:           Ime kalendara
+            public.label:         Obujam
+            events.label:         Događaji
+            organization.label:   Organizacija
+            background_color.label: Boja
+
+            scope.system:         Sistem
+            scope.organization:   Organizacija
+            no_color:             Dodijeli automatski
+
+        #
+        # Oro/Bundle/CalendarBundle/Entity/CalendarEvent
+        #
+        calendarevent:
+            entity_label:         Kalendarski događaj
+            entity_plural_label:  Kalendarski događaji
+            entity_description:   Predstavlja kalendarski događaj
+            id.label:             Id
+            title.label:          Naslov
+            description.label:    Opis
+            start.label:          Početak
+            end.label:            Kraj
+            calendar.label:       Kalendar
+            all_day.label:        Cijelodnevni događaj
+            child_events.label:   Dječji događaji
+            parent.label:         Roditelj
+            background_color.label:  Boja
+            system_calendar.label:   Sistemski kalendar
+            invitation.label:        Gosti
+            invitation_status.label: Status pozivanja
+
+            no_color:             Koristi boju
+            updated_by:           dodao {{ user }}, {{ date }}, ažurirao {{ editor }}, {{ editor_date }}
+            added_by:             dodao {{ user }}, {{ date }}
+            update_event:         Ažuriraj {{ entity }}
+            delete_event:         Obriši {{ entity }}
+
+            statuses:
+                not_responded:        Ne odgovoreno
+                tentatively_accepted: Uvjetno prihvaćeno
+                accepted:             Prihvaćeno
+                declined:             Odbijeno
+
+            actions:
+                tentatively_accepted: Uvjetno
+                accepted:             Prihvati
+                declined:             Odbij
+
+        #
+        # Oro/Bundle/CalendarBundle/Entity/CalendarProperty
+        #
+        calendarproperty:
+            entity_label:           Svojstvo kalendara
+            entity_plural_label:    Svojstva kalendara
+            entity_description:     Predstavlja različita korisnička svojstva za kalendar
+            id.label:               Id
+            target_calendar.label:  CIljni kalendar
+            calendar_alias.label:   Pseudonim kalendara
+            calendar.label:         Id kalendara
+            position.label:         Pozicija
+            visible.label:          Vidljivo
+            color.label:            Boja
+            background_color.label: Pozadina

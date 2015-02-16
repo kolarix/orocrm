@@ -1,0 +1,47 @@
+oro:
+    filter:
+        form:
+            label_type_equal:             "="
+            label_type_not_equal:         "<>"
+            label_type_greater_equal:     ">="
+            label_type_greater_than:      ">"
+            label_type_less_equal:        "<="
+            label_type_less_than:         "<"
+            label_type_empty:             je prazan
+            label_type_not_empty:         nije prazan
+            label_type_in:                je bilo koji od
+            label_type_not_in:            nije ni jedan od
+            label_type_yes:               Da
+            label_type_no:                Ne
+            label_type_contains:          sadržava
+            label_type_not_contains:      ne sadržava
+            label_type_equals:            je jednak kao
+            label_type_start_with:        počinje sa
+            label_type_end_with:          završava sa
+            label_date_type_between:      između
+            label_date_type_not_between:  nije između
+            label_date_type_more_than:    više od
+            label_date_type_less_than:    manje od
+            label_not_selected:           Nije označeno
+            label_selected:               Označeno
+            label_date_part.value:        vrijednost
+            label_date_part.dayofweek:    dan u tjednu
+            label_date_part.week:         tjedan
+            label_date_part.day:          dan
+            label_date_part.month:        mjesec
+            label_date_part.quarter:      kvartal
+            label_date_part.dayofyear:    dan u godini
+            label_date_part.year:         godina
+            label_date_var.now:           sada
+            label_date_var.today:         danas
+            label_date_var.sow:           početak tjedna
+            label_date_var.som:           početak mjeseca
+            label_date_var.soq:           početak kvartala
+            label_date_var.soy:           početak godine
+            label_date_var.this_day:      trenutni dan
+            label_date_var.this_week:     trenutni tjedan
+            label_date_var.this_month:    trenutni mjesec
+            label_date_var.this_quarter:  trenutni kvartal
+            label_date_var.this_year:     trenutna godina
+            label_date_var.this_fdq:      prvi dan kvartala
+            label_date_var.this_fmq:      prvi mjesec kvartala

@@ -1,0 +1,41 @@
+orocrm:
+    task:
+        menu:
+            task_list.description:  Popis zadataka
+            my_tasks: Moji Zadaci
+
+        #
+        # OroCRM/Bundle/TaskBundle/Entity/Task
+        #
+        entity_label:               Zadatak
+        entity_plural_label:        Zadaci
+        entity_description:         Predstavlja zadatak
+        subject.label:              Predmet
+        description.label:          Opis
+        due_date.label:             Datum krajnjeg roka
+        workflow_step.label:        Status
+        task_priority.label:        Prioritet
+        owner.label:                Dodijeljeno
+        id.label:                   Id
+        workflow_item.label:        Stavka tijeka rada
+        organization.label:         Organizacija
+
+        user_tasks: Korisnički Zadaci
+        info_widget_title: Informacije Zadatka
+        add_entity: Dodaj zadatak
+        add_entity.title: Dodaj zadatak
+        assign_entity: Dodijeli zadatak
+        assign_entity.title: Dodijeli zadatak korisniku
+        assign_entity.widget_title: Dodijeli zadatak %username%
+        saved_message: Zadatak spremljen
+
+        user_tasks_section: Zadaci
+        assigned_tasks_widget:
+            no_task_exist: Nemate zadataka na čekanju
+            update_widget: Ažuriraj zadatke
+
+        view_task:   Pogledaj {{ entity }}
+        update_task: Ažuriraj {{ entity }}
+        delete_task: Obriši {{ entity }}
+        created_by:  Dodijelio {{ user }}, {{ date }}
+        changed_by:  Dodijelio {{ user }}, {{ date }}, ažurirao {{ editor }}, {{ editor_date }}

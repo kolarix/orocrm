@@ -1,0 +1,7 @@
+oro.sidebar:
+    system_configuration:
+        groups:
+            sidebar_settings.title: 'Sidebar postavke'
+        fields:
+            sidebar_left_active.label: 'Omogući lijevi sidebar'
+            sidebar_right_active.label: 'Omogući desni sidebar'

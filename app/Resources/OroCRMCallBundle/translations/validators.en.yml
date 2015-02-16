@@ -1,0 +1,5 @@
+orocrm:
+    call:
+        phone:
+            required:
+                message: "Telefon je obavezno polje"

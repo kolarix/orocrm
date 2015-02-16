@@ -1,0 +1,56 @@
+orocrm:
+    report:
+        menu:
+            static_reports_tab.label: Izvješća
+            accounts_report_tab.label: Klijenti
+            leads_report_tab.label: Mogući Klijenti
+            opportunities_report_tab.label: Prilike
+            accounts_life_time_value.label: Ukupno
+            accounts_life_time_value.description: Klijentov ukupni izvještaj
+            accounts_by_opportunities.label: Po prilikama
+            accounts_by_opportunities.description: Izvještaj klijenata po prilikama
+            leads_by_date.label: Mogući klijenti po datumu
+            leads_by_date.description: Izvještaj mogućih klijenata podatumu
+            opportunities_by_status.label: Prilike po statusu
+            opportunities_by_status.description: Izvještaj prilika po statusu
+            won_by_period.label: Osvojene prilike po razdoblju
+            won_by_period.description: Izvještaj osvojenih prilika po razdoblju
+        datagrid:
+            columns:
+                account_name:      Ime klijenta
+                total_value:       Zaključni prihod
+                close_date:        Zaključni datum
+                created_date:      Datum dodavanja
+                leads_count:       Broj mogućih klijenata
+                period:            Razdoblje
+                number_won:        Broj osvojenih
+                status:            Status
+                number_of_opportunities: Broj prilika
+                close_revenue:     Zaključni prihod
+                budget_amount:     Proračun
+                workflow:          Tijek rada
+                wonCount:          Osvojeno
+                lostCount:         Izgubljeno
+                inProgressCount:   U tijeku
+                totalOps:          Ukupno
+
+        controller:
+            report:
+                wonCount:          Osvojeno
+                lostCount:         Izgubljeno
+                inProgressCount:   U tijeku
+                totalOps:          Ukupno
+
+        opportunitybyworkflowitem:
+            entity_label:        Prilika Uz Tijek Rada
+            entity_plural_label: Prilike Uz Tijek Rada
+            entity_description:  ''
+            id.label:            Id
+            opportunity.label:   Prilika
+            workflow_item.label: Stavka tijeka rada
+
+        accounts_life_time_value: Ukupna dosadašnja vrijednost klijenta
+        accounts_by_opportunities: Klijenti po prilikama
+        leads_by_date: Mogući klijenti po datumu
+        opportunities_by_status: Prilike po statusu
+        opportunities_won_by_period: Osvojene prilike po datumu

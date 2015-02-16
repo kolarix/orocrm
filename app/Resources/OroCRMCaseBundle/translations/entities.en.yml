@@ -1,0 +1,14 @@
+case_source:
+    email: Email
+    phone: Telefon
+    web: Web
+    other: Drugo
+case_status:
+    open: Otvoren
+    in_progress: U tijeku
+    resolved: Riješen
+    closed: Zatvoren
+case_priority:
+    low: Nizak
+    normal: Normalan
+    high: Visok

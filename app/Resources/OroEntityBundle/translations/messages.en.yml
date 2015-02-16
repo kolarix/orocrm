@@ -1,0 +1,47 @@
+oro:
+    entity:
+        controller:
+            message:
+                saved:              Objekt spremljen
+        form:
+            choose_entity:          Odaberi objekt...
+            choose_entity_field:    Odaberi polje...
+            choose_entity_fields:   Odaberi polja...
+            entity_fields:          Polja
+            entity_related:         Povezano
+
+        plural_label: Objekti
+        item: "Stavka #%id%"
+
+        validation:
+            unique_field: Vrijednost za polje "%field%" mora biti jedinstveno | Kombinacija vrijednosti za "%field%" polja mora biti jedinstvena
+
+        datagrid:
+            assigned:     Dodijeljeno
+
+        entity_config:
+            entity:
+                entity:
+                    items:
+                        icon: Ikona
+                        label: Oznaka
+                        plural_label: Oznaka u množini
+                        description: Opis
+                field:
+                    items:
+                        label: Oznaka
+                        description: Opis
+            datagrid:
+                field:
+                    items:
+                        is_visible: Prikaži na mreži
+                        show_filter: Prikaži filter mreže
+            form:
+                field:
+                    items:
+                        is_enabled: Prikaži na formi
+            view:
+                field:
+                    items:
+                        is_displayable: Prikaži na pogledu
+                        priority: Prioritet

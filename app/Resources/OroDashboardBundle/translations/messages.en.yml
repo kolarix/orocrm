@@ -1,0 +1,59 @@
+oro:
+    dashboard:
+        title:
+            main:            Upravljačka Ploča
+            quick_launchpad: Prečaci
+            chose_dashboard: Odaberite upravljačku ploču
+
+        entity_label:        Upravljačka ploča
+        entity_plural_label: Upravljačke ploče
+        id.label:            Id
+        is_default.label:    je zadana
+        label.label:         Oznaka
+        management_title:    Upravljanje upravljačkim pločama
+        name.label:          Ime
+        owner.label:         Vlasnik
+        widgets.label:       Widgeti
+        organization.label:  Organizacija
+
+        start_dashboard: Kopiraj od
+        start_dashboard.empty_value: Prazna upravljačka ploča
+
+        quick_launchpad_widget_description: Ovaj widget vam daje pristup najčešće korištenim stranicama
+
+        no_data_found:    Nema podataka
+
+        no_one_available: Nemate upravljačkih ploča
+
+        empty_column_message:
+            allowed: Povucite widget ovdje ili <a class="dashboard-widgets-add" href="#">dodajte novi widget</a>.
+            denied: Nema dostupnih widgeta
+
+        add_dashboard_widgets:
+            add_to_dashboard: Dodaj
+            add_widget: Dodaj widget
+
+        list: Popis
+
+        saved_message: Upravljačka ploča spremljena
+
+        menu:
+            dashboards_tab:
+                label: Upravljačke ploče
+            dashboards_list:
+                label: Upravljanje upravljačkim pločama
+
+        label: Oznaka
+        owner: Vlasnik
+
+        tools_dropdown:
+            label: Alati
+        edit_dashboard_link:
+            title: Uredi trenutnu upravljačku ploču
+            text:  Uredi
+        create_dashboard_link:
+            title: Dodaj novu upravljačku ploču
+            text:  Dodaj
+        delete_dashboard_link:
+            title: Obriši trenutnu upravljačku ploču
+            text:  Obriši

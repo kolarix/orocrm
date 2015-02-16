@@ -1,0 +1,16 @@
+oro:
+    segment:
+        change_entity_confirmation: Promjena objekta ce obrisati sve segment filtere. Želite li nastaviti?
+        refresh_dialog:
+            title: Potvrdi radnju
+            content: Potvrdite ažuriranje segmenta.
+            success: Segment uspješno procesuiran.
+            error: Pojavila se greška. Molimo kontaktirajte Administratora.
+            okText: Da
+        confirm:
+            unsaved_changes:
+                title: Nespremljene promjene
+                message: Imate nespremljene promjene u {{ components }} koje ćete izgubiti. Nastaviti?
+        report_column_editor: the Report Column Editor
+        grouping_editor: the Grouping Editor
+

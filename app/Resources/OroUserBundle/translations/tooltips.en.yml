@@ -1,0 +1,7 @@
+oro:
+    user:
+        image.tooltip: Slika mora biti u BMP, JPEG ili PNG formatu i ne smije prelaziti veličinu od %file_size%
+        invite.tooltip: Kada je ovo označeno email pozivnica će biti poslana
+        api.tooltip_text: >
+            API ključevi se mogu koristiti za provjeru autentičnosti u drugom softverima.
+            Čuvajte svoju lozinku.

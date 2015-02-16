@@ -1,0 +1,49 @@
+oro:
+    distribution:
+        package:
+            package: Paket
+            name: Ime Paketa
+            type: Tip
+            license: Licenca
+            author: Autor
+            version: Verzija
+            current_version: 'Trenutna Verzija'
+            latest_version: 'Zadnja Verzija'
+            installed: 'Instalirani Paketi'
+            available: 'Dostupni Paketi'
+            nothing_installed: 'Ništa instalirano'
+            nothing_to_update: 'Ništa za ažuriranje'
+            list_of_updates: 'Popis dostupnih ažuriranja'
+            installed_version: 'Instalirana verzija'
+            up_to_date_version: 'Najnovija verzija'
+            install_new: 'Instaliraj novi paket'
+            unknown: nepoznat
+        action:
+            install: Instaliraj
+            update: Ažuriraj
+            delete: Obriši
+            save: Spremi
+        menu:
+            get_help: Pomoć
+            sign_out: Odjava
+            composer_settings: 'Postavke Composera'
+        security:
+            login: Prijava
+            username: Korisničko ime
+            password: Lozinka
+            username_or_email: 'Korisničko ime ili Email'
+            remember_me: 'Zapamti me na ovom računalu'
+            log_in: 'Prijava'
+        messages:
+            settings_saved: 'Postavke spremljene.'
+            unexpected_error: 'Greška/e '
+            not_writable: 'Sljedeći direktoriji/datoteke moraju biti writable za web korisnika'
+            enter_package_name: 'Unesite ime paketa'
+            ajax_error: 'Ajax greška'
+        settings:
+            repositories: Repozitoriji
+            add_repository: 'Dodaj repozitorij'
+        installer: 'Installer'
+
+'Business Application Platform': 'Business Application Platform'
+'Nazad na instalirane pakete': 'Nazad na instalirane pakete'

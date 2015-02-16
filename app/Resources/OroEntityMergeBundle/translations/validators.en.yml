@@ -1,0 +1,5 @@
+"You need minimum {{ limit }} entities to merge.": "Trebate minimalno {{ limit }} objekata za spajanje."
+"You can merge only {{ limit }} entities at once.": "Možete spojiti samo {{ limit }} objekata odjednom."
+"Add entity before setting it as master.": "Dodaj objekt prije postavljanja kao glavni."
+"Add entity before setting it as a source entity for {{ field }} field.": "Dodaj objekt prije postavljanja kao izvoz objekta za {{ field }} polje."
+"Merge entities should be unique.": "Spajanje objekata treba biti jedinstveno."

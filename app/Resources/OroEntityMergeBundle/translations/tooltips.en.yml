@@ -1,0 +1,5 @@
+oro:
+    entity_merge:
+        form:
+            strategy_tooltip: “Zamijeniti” metoda će koristiti obilježene vrijednosti kao nove vrijednosti obilježenog polja. “Dodati” metoda će spojiti označene vrijednosti i postaviti ih kao novu vrijednosti.
+            master_record_tooltip: Vrijednosti polja iz svih zapisa će biti spojeni u glavni zapis, svi ostali zapisi će biti obrisani.

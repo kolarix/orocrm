@@ -1,0 +1,131 @@
+Add another email: Dodaj email
+Additional: Dodatno
+
+"%groups% i %roles%": "%groups% i %roles%"
+
+oro.user.form.choose_user: Izaberi korisnika...
+oro.user.form.choose_gender: Izaberi spol...
+oro.user.gender.male: Muško
+oro.user.gender.female: Žensko
+
+Login: Prijava
+Logout: Odjava
+Login page: Stranica za prijavu
+"Bad credentials": "NEtočno korisničko ime ili lozinka."
+"Forgot Password": "Zaboravili lozinku?"
+"Password Reset": "Reset lozinke"
+"Reset password": "Reset lozinke"
+"Generate key was successful. New key:": "Uspješno generirano. Novi ključ &#58;"
+"Generate key": "Generiraj ključ"
+"Access Settings": "Postavke Pristupa"
+"Organization": "Organizacija"
+"Business Unit": "Poslovna Jedinica"
+"User": "Korisnik"
+"None": "Nijedan"
+
+change_password:
+    flash:
+        success: Lozinka je promijenjena
+resetting:
+    flash:
+        success: Lozinka je uspješno resetirana
+
+oro:
+    user:
+        form:
+            access_settings.label: Poslovna jedinica
+        menu:
+            system_tab.label: Sistem
+            user_list.description: Popis sistemskih korisnika
+            user_roles.description: Popis sistemskih uloga
+            user_groupes.description: Popis sistemskih grupa
+            users_management.label: Upravljanje korisnicima
+            user_create.label: Dodaj korisnika
+            shortcut_new_user.label: Dodaj novog korisnika
+            shortcut_new_user.description: Dodaj novog korisnika
+            shortcut_list_users.label: Prikaži popis korisnika
+            shortcut_list_users.description: Popis svih sistemskih korisnika
+            shortcut_new_role.label: Dodaj novu ulogu
+            shortcut_new_role.description: Dodaj novu ulogu
+            shortcut_new_group.label: Dodaj novu grupu
+            shortcut_new_group.description: Dodaj novu grupu
+            oro_user_profile_view.label: Moj profil
+        controller:
+            group.message.saved: "Grupa spremljna"
+            role.message.saved: "Uloga spremljena"
+            user.message.saved: "Korisnik spremljen"
+            status.message.saved: "Status spremljen"
+            invite.fail.message: Slanje email pozivnice neuspjelo
+        #
+        # Oro/Bundle/UserBundle/Entity/User
+        #
+        api_keys.label:              API ključevi
+        api.label:                   API ključ
+        birthday.label:              Datum rođenja
+        business_units.label:        Poslovna jedinica
+        organizations.label:         Organizacija
+        confirmation_token.label:    Token potvrde
+        current_status.label:        Trenutni status
+        groups.label:                Grupe
+        email.label:                 Primarni email
+        email_origins.label:         Email
+        emails.label:                Emails
+        enabled.label:               Status
+        entity_description:          Predstavlja korisnički profil
+        entity_label:                Korisnik
+        entity_plural_label:         Korisnici
+        first_name.label:            Ime
+        id.label:                    Id
+        avatar.label:                Slika
+        imap_configuration.label:    Postavke email sinkronizacije
+        last_login.label:            Zadnji put prijavljen
+        last_name.label:             Prezime
+        login_count.label:           Brojač prijava
+        middle_name.label:           Srednje ime
+        name_prefix.label:           Prefiks
+        name_suffix.label:           Sufiks
+        owner.label:                 Vlasnik
+        password.label:              Lozinka
+        password_re.label:           Ponovno lozinka
+        password_requested_at.label: Lozinka zatražena
+        new_password.label:          Nova lozinka
+        new_password_re.label:       Ponovno nova lozinka
+        roles.label:                 Uloge
+        salt.label:                  Salt
+        statuses.label:              Statusi
+        username.label:              Korisničko ime
+        organization.label:          Organizacija
+
+        # extended field added in migrations
+        title.label:                 Naslov
+
+        #
+        # Oro/Bundle/UserBundle/Entity/Group
+        #
+        group:
+            entity_label:        Grupa
+            entity_plural_label: Grupe
+            entity_description:  Grupa uloga
+            id.label:    Id
+            name.label:  Ime
+            roles.label: Uloge
+            owner.label: Vlasnik
+            organization.label: Organizacija
+            has_group.label: Ima grupu
+        #
+        # Oro/Bundle/UserBundle/Entity/Role
+        #
+        role:
+            entity_label:        Uloga
+            entity_plural_label: Uloge
+            entity_description:  Korisnikova uloga
+            id.label:     Id
+            role.label:   Uloga
+            label.label:  Oznaka
+            owner.label:  Vlasnik
+            has_role.label: Ima ulogu
+        invite:
+            label: Pošalji email pozivnicu
+        privileges:
+            entity.label: Objekt
+            action.label: Mogućnosti

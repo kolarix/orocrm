@@ -1,0 +1,4 @@
+orocrm:
+    marketinglist:
+        contact_information_required: "Najmanje jedan stupac mora sadržavati kontakt informacije"
+        contact_information_type: "Najmanje jedan stupac mora sadržavati kontakt informacije tipa %type%"

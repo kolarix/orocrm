@@ -1,0 +1,38 @@
+oro:
+    segment:
+        action:
+            refresh: Ažuriraj segment
+
+        menu:
+            reports_tab.label: Izvješća i Segmenti
+            manage_segments.label: Upravljanje segmentima
+
+        definition.label:    Definicija
+        description.label:   Opis
+        entity_label:        Segment
+        entity_plural_label: Segmenti
+        id.label:            Id
+        last_run.label:      Zadnje pokretanje
+        name.label:          Ime
+        owner.label:         Vlasnik
+        organization.label:  Organizacija
+
+        entity:
+            label:   Objekt
+            saved:   Segment spremljen
+
+        type:
+            dynamic: Dinamično
+            label:   Tip
+            static:  Ručno
+
+        form:
+            choose_segment_type:    Odaberite tip segmenta
+            designer:               Dizajner
+            columns:                Stupco
+            filters:                Filteri
+
+        condition_builder:
+            apply_segment:              Primjeni %s segment
+            criteria.segment_condition: Primjeni segment
+            choose_entity_segment:      Odaberi segment

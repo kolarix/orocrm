@@ -1,0 +1,20 @@
+oro:
+    embeddedform:
+        css.label:           CSS
+        entity_label:        Ugrađena Forma
+        entity_plural_label: Ugrađene Forme
+        form_type.label:     Tip forme
+        id.label:            ID
+        title.label:         Naslov
+        owner.label:         Organizacija
+
+        back_link_default_text: Nazad
+        get_code:               Kod
+        no_types_available:     Ugrađena forma ne može biti izrađena bez dostupnih tipova forme.
+
+        success_message:
+            label: Poruka uspjeha
+            default: Forma je uspješno predana
+
+        controller:
+            saved_message: Forma je uspješno spremljena

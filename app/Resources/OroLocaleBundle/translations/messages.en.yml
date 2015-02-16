@@ -1,0 +1,41 @@
+oro.locale:
+    address_format:
+        region_name_type:
+            parish: "parish"
+            state: "state"
+            island: "island"
+            county: "county"
+            area: "area"
+            prefecture: "prefecture"
+            do_si: "do_si"
+            department: "department"
+            district: "district"
+            province: "province"
+
+    system_configuration:
+        groups:
+            localization.title: 'Lokalizacija'
+            language_settings.title: 'Postavke jezika'
+            language_languages.title: 'Jezici'
+            locale_settings.title: 'Postavke lokalizacije'
+            map_settings.title: 'Postavke karte'
+        fields:
+            locale.label: 'Locale'
+            country.label: 'Primarna lokacija'
+            format_address_by_address_country.label: 'Formatiraj adresu po državi'
+            language.label: 'Zadani jezik'
+            languages.label: 'Podržani jezici'
+            timezone.label: 'Vremenska zona'
+            currency.label: 'Valuta'
+            quarter_start.label: 'Prvi kvartal pošinje'
+            temperature_unit:
+                label: 'Mjerna jedinica temperature'
+                choices:
+                    fahrenheit: 'Fahrenheit'
+                    celsius: 'Celzijus'
+            wind_speed_unit:
+                label: 'Mjerna jedinica brzine vjetra'
+                choices:
+                    miles_per_hour: 'Milja po satu'
+                    kilometers_per_hour: 'Kilometara na sat'
+                    meters_per_second: 'Metara u sekundi'

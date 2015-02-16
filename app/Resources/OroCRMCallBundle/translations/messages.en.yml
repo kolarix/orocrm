@@ -1,0 +1,60 @@
+'New': 'Novi'
+'Create call': 'Dodaj poziv'
+'Add call log': 'Dodaj zapisnik poziva'
+'Log': 'Zapisnik'
+'Call logged successfully': 'Poziv spremljen'
+'Call deleted successfully': 'Poziv uspješno obrisan'
+
+orocrm:
+    dashboard:
+        recent_calls:
+            title: Nedavni pozivi
+            view_all: Pogledaj sve
+            description: Ovaj widget prikazuje popis nedavno zabilježenih poziva
+
+    call:
+        menu:
+            call_list.description: Popis poziva
+            shortcut_call_list.label: Prikaži popis poziva
+            shortcut_call_list.description: Popis poziva
+        form:
+            choose_or_enter_phone: Odaberite ili unesite broj telefona ...
+
+        controller:
+            call.saved.message: Poziv spremljen
+            call.deleted.message: Poziv uspješno obrisan
+
+        datagrid:
+            date_time:    Datum poziva
+
+        sections:
+            general: Općenito
+
+        widget:
+            call_information: Informacije Poziva
+
+        log_call:    Zabilježi poziv
+        update_log_call: Ažuriraj poziv
+        view_call:   Pogledaj {{ entity }} poziv
+        update_call: Ažuriraj {{ entity }} poziv
+        delete_call: Obriši {{ entity }} poziv
+        created_by:  zabilježio {{ user }}, {{ date }}
+        changed_by:  dodao {{ user }}, {{ date }}, ažurirao {{ editor }}, {{ editor_date }}
+
+        #
+        # OroCRM/Bundle/CallBundle/Entity/Call
+        #
+        entity_label:          Poziv
+        entity_plural_label:   Pozivi
+        entity_description:    Predstavlja poziv
+        id.label:              Id
+        subject.label:         Predmet
+        phone_number.label:    Broj telefona
+        owner.label:           Vlasnik
+        notes.label:           Dodatni komentari
+        duration.label:        Trajanje
+        direction.label:       Smjer
+        call_status.label:     Status poziva
+        call_date_time.label:  Datum i vrijeme poziva
+        organization.label:    Organizacija
+

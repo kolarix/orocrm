@@ -1,0 +1,10 @@
+oro:
+    email:
+        emailtemplate:
+            load_failed: Greška pri učitavanju predloška.
+            variable_title: '{{ variable_label }}. Kliknite da ubacite varijablu ili ju dovucite.'
+            reference_title: '{{ variable_label }}. Kliklite da odete na povezane varijable.'
+            change_entity_confirmation: Podaci predloška mogu sadržavati varijable vezane za prije odabrani objekt. Želite li očistiti sve podatke predloška?
+
+"Email poslan": "Email poslan"
+"Pregled": "Pregled"

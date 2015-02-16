@@ -1,0 +1,55 @@
+"Yes": "Da"
+"Yes, Delete": "Da, Obriši"
+"Yes, I Agree": "Da, Slažem se"
+"Yes, do it": "Da"
+"No": "Ne"
+"OK, got it.": "OK"
+"Cancel": "Odustani"
+"Delete Confirmation": "Potvrda brisanja"
+"Edit": "Uredi"
+"Loading...": "Učitavanje..."
+"Saving...": "Spremanje..."
+"Deleting...": "Brisanje..."
+"Unexpected error occurred. Please contact system administrator.": "Pojavila se greška. Molimo kontaktirajte Administratora."
+Now: Sada
+Prev: <
+Next: >
+Today: Danas
+Wk: Wk
+Done: Završeno
+Close: Zatvori
+AM: AM
+A: A
+PM: PM
+P: P
+"Choose Time": "Odaberi Vrijeme"
+Time: Vrijeme
+Hour: Sat
+Minute: Minuta
+Second: Sekunda
+Millisecond: Milisekunda
+Microsecond: Mikrosekunda
+"Time Zone": "Vremenska Zona"
+"Server error": "Greška na Serveru"
+"User input error": "Greška pri unosu"
+"Error! Incorrect server response.": "Greška! Netočni odgovor servera."
+"Sorry, unexpected error was occurred": "Pojavila se neočekivana greška"
+"Please select a file...": "Odaberite datoteku..."
+"Choose File": "Odaberite Datoteku"
+"Searching...": "Pretraga..."
+"No matches found": "Nije pronađeno"
+OK: OK
+"N/A": "N/A"
+maximize: maksimiziraj
+restore: vrati
+minimize: minimiziraj
+close: zatvori
+
+oro:
+    ui:
+        widget_loading_filed: "Greška pri učitavanju widgeta"
+        forbidden_error: Nemate dopuštenje za ovu radnju.
+        unexpected_error: Pojavila se neočekivana greška. Molimo kontaktirajte Administratora.
+        page_header:
+            button:
+                more: "Više"

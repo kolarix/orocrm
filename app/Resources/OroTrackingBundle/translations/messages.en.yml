@@ -1,0 +1,75 @@
+oro:
+    tracking:
+        trackingwebsite:
+            entity_label:        Praćenje web stranice
+            entity_plural_label: Praćenje web stranica
+            entity_description: Stranice za praćenje
+
+            id.label:            Id
+            name.label:          Ime
+            identifier.label:    Identifikator
+            url.label:           URL adresa
+            owner.label:         Vlasnik
+            organization.label:  Organizacija
+
+            saved_message: Praćenje web stranice spremljeno
+
+        trackingevent:
+            entity_label:        Događaj praćenja
+            entity_plural_label: Događaji praćenja
+            entity_description:  Praćeni događaji
+
+            id.label:             Id
+            title.label:          Naslov
+            name.label:           Ime
+            value.label:          Vrijednost
+            userIdentifier.label: Korisnik
+            url.label:            URL adresa
+            website.label:        Web
+            code.label:           Kod
+            logged_at.label:      Prijavljen
+            user_identifier.label: Id korisnika
+
+        trackingdata:
+            entity_label:        Podaci praćenja
+            entity_plural_label: Podaci praćenja
+            entity_description:  Podaci praćenja
+
+            data.label:       Podaci
+            event.label:      Događaj
+            id.label:         Id
+
+        block:
+            general:    Općenito
+            additional: Dodatno
+            tracking:   Kod za praćenje
+            events:     Događaji
+
+        help:
+            event_tooltip: |
+                Ovaj kod mora biti na svakoj stranici vaše web stranice prije </body> taga.
+                Za praćenje prilagođenih događaja, odkomentirajte trackEvent string i zamijenite
+                [name], [value] i [user_identifier] parametre sa svojim vrijednostima.
+                Skripta će zabilježiti događaj sa imenom [name] i izborno [value].
+            secure: |
+                Da omogućite praćenje na sigurnim (HTTPS) web stranicama, HTTPS također treba biti omogućen na CRM web serveru.
+
+        website_configuration: Praćenje web stranica
+
+        system_configuration:
+            groups:
+                tracking.title: 'Praćenje'
+                tracking_settings.title: 'Postavke praćenja'
+            fields:
+                dynamic_tracking_enabled.label: 'Omogući dinamično praćenje'
+                log_rotate_interval:
+                    label: 'Interval bilježenja'
+                    choices:
+                        60: '1 sat'
+                        30: '30 minuta'
+                        20: '20 minuta'
+                        15: '15 minuta'
+                        10: '10 minuta'
+                        5:  '5 minuta'
+                piwik_host.label: 'Piwik Host'
+                piwik_token_auth.label: 'Piwik Token Auth'

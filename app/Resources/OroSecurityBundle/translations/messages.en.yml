@@ -1,0 +1,18 @@
+(default): Zadane dozvole na objektima
+VIEW: Pogledaj
+CREATE: Napravi
+EDIT: Uredi
+DELETE: Obriši
+ASSIGN: Dodijeli
+SHARE: Podijeli
+oro:
+    security:
+        access-level:
+            BASIC: Korisnik
+            LOCAL: Poslovna jedinica
+            DEEP: Divizija
+            GLOBAL: Sistem
+            SYSTEM: Sistem
+            NONE: None
+        organization:
+            access_denied: Nemate pristup organizaciji "%organization_name%"

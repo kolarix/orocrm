@@ -1,0 +1,45 @@
+oro:
+    tag:
+        menu:
+            shortcut_new_tag.label: Napravi novu oznaku
+            shortcut_new_tag.description: Napravi novu oznaku
+            tag_list.description: Popis oznaka
+            all_tags: Sve oznake
+            my_tags: Moje oznake
+
+        controller:
+            tag.saved.message: "Oznaka spremljena"
+        form:
+            choose_tag: "Odaberi oznaku"
+            choose_or_create_tag: "Odaberi postojeću oznaku ili dodaj novu"
+        datagrid:
+            usage_count: Broj Korištenja
+            search:      Traži po oznaci
+            search_result: Označeno sa "%name%"
+
+        created_by.label:    Napravio
+        entity_description:  Prikaži zapise s ovom oznakom
+        entity_label:        Oznaka
+        entity_plural_label: Oznake
+        id.label:            Id
+        name.label:          Oznaka
+        owner.label:         Vlasnik
+        tagging.label:       Označavanje
+        updated_by.label:    Ažurirao
+        organization.label:  Organizacija
+
+        action:
+            assign_unassign: "Tag assign/unassign"
+            unassign_global: "Unassign all tags from entities"
+            view_cloud: "View tag cloud"
+
+        tagging:
+            alias.label:         Alias
+            entity_description:  Predstavlja oznake
+            entity_label:        Označavanje
+            entity_name.label:   Ime objekta
+            entity_plural_label: Označavanja
+            id.label:            Id
+            owner.label:         Vlasnik
+            record_id.label:     Zapis
+            tag.label:           Oznaka

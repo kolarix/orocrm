@@ -1,0 +1,10 @@
+orocrm:
+    analytics:
+        less: Manje od
+        more: Više od
+        from: Od
+        to: Za
+        na: Nije dostupno
+        best: nejbolje
+        worst: najgore
+        delete_row: Obriši

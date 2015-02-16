@@ -1,0 +1,41 @@
+oro:
+    query_designer:
+        datagrid:
+            column:
+                column:         Stupac
+                label:          Oznaka
+                function:       Funkcija
+                sorting:        Razvrstavanje
+                actions:        Radnje
+            action:
+                move_column:    Pomakni stupac
+                update_column:  Ažuriraj stupac
+                delete_column:  Obriši stupac
+                delete_column_confirmation: Jeste li sigurni da žeite obrisati ovaj stupac?
+                update_filter:  AŽuriraj filter
+                delete_filter:  Obriši filter
+                delete_filter_confirmation: Jeste lis sigurni da želite obrisati ovaj filter?
+        form:
+            action:
+                add:            Dodaj
+                save:           Spremi
+                cancel:         Odustani
+            grouping_columns:   Grupiranje stupaca
+            column:             Stupac
+            label:              Oznaka
+            function:           Funkcija
+            choose_function:    Ništa
+            sorting:            Razvrstavanje
+            choose_sorting:     Ništa
+            sorting_asc:        Uzlazno
+            sorting_desc:       Silazno
+            condition:          Uvjet
+        condition_builder:
+            criteria:
+                drag_hint: povuci za označavanje
+                field_condition:   Uvjet polja
+                conditions_group:  Grupa uvjeta
+            choose_entity_field: Odaberi polje...
+        validation:
+            grouping: "%columns% se moraju pojaviti grupirani."
+            query: Nevažeći upit

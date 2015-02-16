@@ -1,0 +1,57 @@
+oro:
+    entity_config:
+        action:
+            manage:              Upravljanje kofigurabilnim objektima
+            view_entities:       Pogledaj kofigurabilne objekte
+            update_entity:       Ažuriraj kofigurabilni objekt
+            view_entity:         Pogledaj kofigurabilni objekt
+            update_entity_field: Ažuriraj polje kofigurabilnog objekta
+            field_search:        Vrati varchar tip polja u zadanom objektu
+
+        block_titles:
+            general.label:       Opće informacije
+            fields.label:        Polja
+            other.label:         Drugo
+            associations.label:  Komunikacija i Suradnja
+
+        config_log:
+            user.label:      Autor
+            diffs.label:     Diffs
+            logged_at.label: Prijavljen na
+
+        menu:
+            entities_list.label:           Objekti
+            entities_list.description:     Popis objekata
+            entity_management.label:       Upravljanje objektima
+            entity_management.description: Popis objekata
+
+        controller:
+            config_entity:
+                message:
+                    saved:  Objekt spremljen
+                    update: Shema ažurirana
+            config_field:
+                message:
+                    saved: Polje spremljeno
+
+        entity:
+            plural_label:      Objekti
+            information.label: Ionformacije o objektu
+            unique.label:      Jedinstveni ključevi
+
+        entity_config:
+            entity_name.label: Ime
+            module_name.label: Modul
+
+        field_config:
+            field_name.label: Ime
+            type.label:       Tip podataka
+            records_count.label: Broj zapisa
+
+        info:
+            new_field.label:     Novo polje
+            records_count.label: Broj zapisa: %count%
+
+        form:
+            name.label: Ime
+            type.label: Tip

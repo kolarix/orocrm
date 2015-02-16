@@ -1,0 +1,18 @@
+oro.entity_pagination:
+    pager_of_%total%_record|pager_of_%total%_records: 'od %total% zapisa|od %total% zapisa'
+    first: 'Prva'
+    last: 'Zadnja'
+
+    message:
+        stats_number_view_%count%_record|stats_number_view_%count%_records: 'Pregledavate zapis %count%.|Pregledavate zapis %count%.'
+        stats_number_edit_%count%_record|stats_number_edit_%count%_records: 'Uređujete zapis %count%.|Uređujete zapis %count%.'
+        not_available: 'Neki od zapisa više nisu dostupni.'
+        not_accessible: 'Nemate ovlasti da pregledate zapise.'
+        stats_changed_view_to_edit: 'Nemate ovlasti da uredite sve označene zapise.'
+
+    system_configuration:
+        fields:
+            enabled:
+                label: 'Zapis Obilježavanja stranica'
+            limit:
+                label: 'Zapis obilježavanja stranica limit'

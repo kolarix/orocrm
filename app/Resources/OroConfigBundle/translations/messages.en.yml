@@ -1,0 +1,27 @@
+oro:
+    config:
+        module_label: "Postavke sustava"
+
+        actions:
+            collapse_all:  "Zatvori sve"
+            expand_all:    "Otvori sve"
+            save_settings: "Spremi postavke"
+            restore_saved_values: "Vrati Spremljene Vrijednosti"
+
+        menu:
+            system_configuration.label:       "Postavke"
+            system_configuration.description: "Postavke sustava"
+
+        controller:
+            config.saved.message: "Postavke spremljene"
+            page.reload.message:  "Pričekajte dok se stranica ponovno učita..."
+
+        system_configuration:
+            groups:
+                platform.title: "Postavke sustava"
+                general_setup.title: "Opće postavke"
+            use_default: "Koristi zadano"
+
+    dashboard:
+        widgets:
+            quick_launchpad.title: "Postavke"

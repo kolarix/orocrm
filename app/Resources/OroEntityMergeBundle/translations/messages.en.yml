@@ -1,0 +1,24 @@
+oro:
+    entity_merge:
+        controller:
+            merged_successful: Objekti uspješno spremljeni.
+            select_error: Odaberi objekte za spajanje.
+        action:
+            merge: Spoji {{ label }}
+        acl:
+            merge: Spoji objekte
+
+        hint:
+            other_related_entities: Svi ostali povezani objekti će se spojiti koristeći metodu spajanja
+
+        merge_modes:
+            replace: Zamijeniti
+            unite: Dodati
+
+        form:
+            empty:         Prazno
+            master_record: Glavni zapis
+            strategy:      Metoda
+            select_all:    Odaberi sve
+            merge_values:  Spoji vrijednosti
+            merge_button:  Spoji

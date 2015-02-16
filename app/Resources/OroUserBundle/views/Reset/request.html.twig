@@ -1,0 +1,27 @@
+{% extends 'OroUserBundle::layout.html.twig' %}
+
+{% block bodyClass %}login-page{% endblock %}
+{% block messages %}
+    {% set messagesContent = parent() %}
+{% endblock messages %}
+
+{% block content %}
+<form action="{{ path('oro_user_reset_send_email') }}" method="post" class="form-signin">
+    <div class="title-box">
+        <h2 class="title">{{ 'Zaboravili ste lozinku?'|trans }}</h2>
+    </div>
+    <fieldset class="oro-forgot-password">
+        {% if invalid_username is defined %}
+            <div class="alert alert-error">
+                {{ 'Korisničko ime ili email "%username%" ne postoji.'|trans({ '%username%': invalid_username }) }}
+            </div>
+        {% endif %}
+        {{ messagesContent }}
+        <input type="text" id="prependedInput" name="username" required="required" placeholder="{{ 'Korisničko ime ili email'|trans }}" autofocus/>
+        <div class="form-row">
+            <a href="{{ path('oro_user_security_login') }}" class="btn btn-link">&laquo; {{ 'Nazad na Prijavu'|trans }}</a>
+            <button type="submit" class="btn extra-submit btn-large btn-primary">{{ 'Zatraži'|trans }}</button>
+        </div>
+    </fieldset>
+</form>
+{% endblock %}

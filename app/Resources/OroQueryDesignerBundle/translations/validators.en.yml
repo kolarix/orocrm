@@ -1,0 +1,7 @@
+oro:
+    query_designer:
+        condition_builder:
+            condition_item:
+                not_blank: "Ovaj uvjet ne smije biti prazan."
+            conditions_group:
+                not_blank: "Ova grupa ne smije biti prazna."

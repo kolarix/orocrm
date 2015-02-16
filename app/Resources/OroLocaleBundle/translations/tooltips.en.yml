@@ -1,0 +1,13 @@
+oro.locale:
+    form:
+        tooltip:
+            languages: "Odaberite jezik koji se može koristiti za rpijevod email predložaka."
+            locale: "Obuhvaća formatiranje brojeva, adresa, imena i datuma."
+            location: " Ako je Formatiraj adresu po državi opcija isključena, ili nema posebnog formatiranja za državu, adrese će se formatirati po pravilima primarne lokacije."
+            format_address_by_address_country: "S ovom opcijom uključenom, adrese se formatiraju po pravilima njihovih država. U suprotnom slučaju koristi se formatiranje po primarnoj lokaciji."
+            language: "Izaberite jezik sistema sa popisa instaliranih (ispod)."
+            timezone: "Odaberite vašu vremensku zonu. Svi datumi i vrijeme će biti prikazani u njoj."
+            currency: "Odaberite zadanu valutu"
+            quarter_start: "Odaberite datum početka kvartala."
+            temperature_unit: "Odaberite mjernu jedinicu temperature. Primjenjivat će se za vrijeme na karti."
+            wind_speed_unit: "Odaberite mjernu jedinicu brzine vjetra. Primjenjivat će se za vrijeme na karti."

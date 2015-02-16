@@ -1,0 +1,55 @@
+orocrm:
+    contactus:
+        contactrequest:
+            entity_label:                   Zahtjev Za Kontakt
+            entity_plural_label:            Zahtjevi Za Kontakt
+            id.label:                       ID
+            first_name.label:               Ime
+            last_name.label:                Prezime
+            email_address.label:            Email
+            phone.label:                    Telefon
+            comment.label:                  Komentar
+            feedback.label:                 Povratna informacija
+            contact_reason.label:           Razlog kontakta
+            choose_contact_reason.label:    Odaberi razlog kontakta...
+            status.label:                   Status
+            opportunity.label:              Prilika
+            lead.label:                     Mogući klijent
+            calls.label:                    Pozivi
+            emails.label:                   Emailovi
+            workflow_item.label:            Stavka tijeka rada
+            workflow_step.label:            Korak tijeka rada
+            organization_name.label:        Ime organizacije
+            preferred_contact_method.label: Preferirani način kontakta
+            owner.label:                    Organizacija
+            data_channel.label:             Kanal
+
+            datagrid:
+                update: Ažuriraj
+                delete: Obriši
+                view:   Pogledaj
+
+            method:
+                email: Email
+                phone: Telefon
+                both:  Email i Telefon
+
+            widget:
+                info:
+                    title: Detalji Zahtjeva Za Kontakt
+            entity:
+                saved: Zahtjev za kontakt uspješno spremljen
+
+        contactreason:
+            entity_label: Razlog Kontakta
+            entity_plural_label: Razlozi Kontakta
+            entity_description: Predstavlja razlog kontakta
+            id:
+                label: ID
+            label:
+                label: Oznaka
+
+        block:
+            general:                Opće
+            additional:             Dodatno
+            request_information:    Informacije o zahtjevu

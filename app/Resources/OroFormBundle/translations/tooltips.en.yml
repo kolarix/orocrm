@@ -1,0 +1,6 @@
+oro:
+    form:
+        system_configuration:
+            fields:
+                wysiwyg_enabled:
+                    tooltip: 'Omogući WYSIWYG editor za sva tekst polja'

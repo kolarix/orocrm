@@ -1,0 +1,25 @@
+oro:
+    pagination:
+        page: Stranica:
+        total: od {{ pages }} | Ukupno {{ records }}
+    comment:
+        plural_label: Komantar
+        entity_plural_label: Komantari
+        action:
+            delete: Obriši Komentar
+            update: Ažuriraj Komentar
+        from:
+            button:
+                add_comment:
+                    label: Dodaj Komentar
+                edit_comment:
+                    label: Spremi Komentar
+                cancel_comment:
+                    label: Odustani
+        attachment:
+            tooltip: Datoteka u privitku {{ filename }}
+            delete_message: Komentar privitak je uspješno obrisan
+        item:
+            added: '{{ user }} dodano {{ time }}'
+            update: 'ažurirao {{ user }}, {{ time }}'
+        deleteConfirmation: Jeste li sigurni da želite obrisati?

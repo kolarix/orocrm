@@ -1,0 +1,113 @@
+"Delete": "Obriši"
+"Save": "Spremi"
+"Save and Close": "Spremi i Zatvori"
+"Cancel": "Odustani"
+"Edit": "Uredi"
+"Refresh": "Ažuriraj"
+"Reset": "Resetiraj"
+"Continue": "Nastavi"
+"Go": "Idi"
+"Search": "Traži"
+"Search results": "Rezultati pretrage"
+"View more...": "Pogledaj više..."
+"All": "Sve"
+"Any": "Bilo koji"
+"Expand All": "Otvori sve"
+"Collapse All": "Zatvori sve"
+"Ascending Order": "Uzlazno sortiranje - Klik za silazno sortiranje"
+"Descending Order": "Silazno sortiranje - Klik za uzlazno sortiranje"
+"N/A": "N/A"
+"Loading...": "Učitavanje..."
+"Saving...": "Spremanje..."
+"Deleting...": "Brisanje..."
+oro.age: "{0} newborn|]0,Inf[age %count%"
+"Get help": "Pomoć"
+"Communications": "Komunikacije"
+"Additional Information": "Dodatne informacije"
+
+oro:
+    ui:
+        actions:          %entityName% Radnje
+        actions.activity: Više radnji
+        create:         Napravi
+        create_entity:  Napravi %entityName%
+        update_entity:  Ažuriraj %entityName%
+        created_at:     Napravljeno
+        delete:         Obriši
+        delete_confirm: Želite li obrisati ovaj %entity_label%?
+        delete_entity:  Obriši %entityName%
+        delete_message: %entity_label% obrisan
+        edit:           Uredi
+        edit_entity:    Uredi %entityName%
+        view:           Pogledaj
+        view_entity:    Pogledaj %entityName%
+        empty:          N/A
+        item:           stavka
+        owner:          Vlasnik
+        updated_at:     Ažurirano
+        system_configuration:
+            groups:
+                navbar_settings.title: 'Izbornik'
+                application_settings.title: 'Postavke Aplikacije'
+                application_name_settings.title: 'URL'
+            fields:
+                application_url.label: 'URL Aplikacije'
+                navbar_position:
+                    label: 'Pozicija'
+                    choices:
+                        top: 'Gore'
+                        left: 'Lijevo'
+        http_codes:
+            226: 'IM Used'
+            300: 'Multiple Choices'
+            301: 'Moved Permanently'
+            302: 'Found'
+            303: 'See Other'
+            304: 'Not Modified'
+            305: 'Use Proxy'
+            306: 'Reserved'
+            307: 'Temporary Redirect'
+            308: 'Permanent Redirect'
+            400: 'Bad Request'
+            401: 'Unauthorized'
+            402: 'Payment Required'
+            403: 'Forbidden'
+            404: 'Not Found'
+            405: 'Method Not Allowed'
+            406: 'Not Acceptable'
+            407: 'Proxy Authentication Required'
+            408: 'Request Timeout'
+            409: 'Conflict'
+            410: 'Gone'
+            411: 'Length Required'
+            412: 'Precondition Failed'
+            413: 'Request Entity Too Large'
+            414: 'Request-URI Too Long'
+            415: 'Unsupported Media Type'
+            416: 'Requested Range Not Satisfiable'
+            417: 'Expectation Failed'
+            418: "I'm a teapot"
+            422: 'Unprocessable Entity'
+            423: 'Locked'
+            424: 'Failed Dependency'
+            425: 'Reserved for WebDAV advanced collections expired proposal'
+            426: 'Upgrade Required'
+            428: 'Precondition Required'
+            429: 'Too Many Requests'
+            431: 'Request Header Fields Too Large'
+            500: 'Internal Server Error'
+            501: 'Not Implemented'
+            502: 'Bad Gateway'
+            503: 'Service Unavailable'
+            504: 'Gateway Timeout'
+            505: 'HTTP Version Not Supported'
+            506: 'Variant Also Negotiates (Experimental)'
+            507: 'Insufficient Storage'
+            508: 'Loop Detected'
+            510: 'Not Extended'
+            511: 'Network Authentication Required'
+        http_error_messages:
+            404: 'The page you requested could not be found. Please make sure the path you used is correct.'
+            403: "You don't have permission to access this page."
+            maintenance: 'The System is currently under maintenance and should be available in a few minutes.'
+'Click to go back': 'Povratak'

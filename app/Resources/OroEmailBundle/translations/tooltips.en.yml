@@ -1,0 +1,4 @@
+oro:
+    email:
+        emailtemplate:
+            entity_name.tooltip:  Izaberite objekt koji je povezan s ovim predloškom ili ostavite prazno ako predložak nije povezan sa objektom.

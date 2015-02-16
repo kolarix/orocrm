@@ -1,0 +1,24 @@
+oro:
+    navigation:
+        help:
+            title: Kako koristiti pano
+            save: Koristite pano kako bi “priljepili” dokumente i stranice na kojima kontinuirano radite klikom na ikonu pribadače u gornjem desnom kutu stranice.
+            restore: 
+        menu:
+            pinbar.label: Pano
+            history.label: Povijest
+            favorite.label: Favoriti
+            mostviewed.label: Najposjećenije
+        messages:
+            no_items: Nema stavki
+        shortcuts:
+            title: Prečaci
+            example: "Primjer: Dodaj Korisnika, Popisi korisnika"
+            see_all: Pogledaj cijeli popis
+            most_used: Najkorištenije radnje
+        favorites:
+            button: Favoriti
+            button.title: Obilježi/Odbilježi stranicu kao favorit
+        pins:
+            button: Minimize
+            button.title: Priljepi/Odljepi stranicu na pano

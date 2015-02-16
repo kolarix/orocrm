@@ -1,0 +1,8 @@
+oro.note.add_note_title:       Dodaj bilješku
+oro.note.edit_note_title:      Ažuriraj bilješku
+oro.note.note_saved:           Bilješka spremljena
+oro.note.note_removed:         Bilješka obrisana
+oro.note.note_delete_confirmation: Jeste li sigurni da želite obrisati bilješku?
+oro.note.load_notes_error:     Nažalost, bilješke se nisu učitale ispravno.
+oro.note.delete_note_error:    Nažalost, brisanje bilješke nije uspjelo.
+oro.note.forbidden_error:      Nemate ovlasti za ovu radnju.

@@ -1,0 +1,37 @@
+"Zatvori": "Zatvori"
+"Ažuriraj": "Ažuriraj"
+"Sada": "Sada"
+"Označeni redovi": "Označeni redovi"
+"Sve": "Sve"
+"Ulazna oznaka": "Ulazna oznaka"
+"više od": "više od"
+"manje od": "manje od"
+"prije": "prije"
+"poslije": "poslije"
+"od": "od"
+"za": "za"
+"i": "i"
+oro:
+    filter:
+        wrapper:
+            reset:
+                hint: Reset
+                tooltip: Resetiraj ovaj filter
+        date:
+            variable:
+                title: Dostupne varijable
+                tooltip_title: Izrazi datuma
+                tooltip: >
+                    Možete ih koristiti za izradu izraza.<br/>
+                    Npr:<br/>
+                    "danas - 2" će biti prekjučer.
+            tab:
+                calendar: Kalendar
+                variables: Varijable
+        embedded:
+            choice:
+                field_to_value: vrijednost polja
+            date:
+                field_to_value: polje
+            select:
+                field_to_value: vrijednost polja je

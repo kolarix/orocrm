@@ -1,0 +1,220 @@
+"No workflow items are available": "Stavke tijeka rada nisu dostupne"
+"Disabled": "Onemogućeno"
+"Active": "Aktivno"
+"Current Step": "Trenutni Korak"
+"Status": "Status"
+"Workflow Name": "Ime Tijeka Rada"
+"Current Step": "Trenutni Korak"
+"Start Date": "Datum Početka"
+"Are you sure you want to delete this workflow item?": "Jeste li sigurni da želite obrisati stavku tijeka rada?"
+"Delete workflow item": "Obriši stavku tijeka rada"
+"Actions": "Radnje"
+"Step information saved": "Podaci o koraku spremljeni"
+Update: Ažuriraj
+New: Dodaj
+Save: Spremi
+'Transition name': 'Ime prijelaza'
+From step: Od koraka
+To step: Do koraka
+Warning message: Upozorenje
+Button: Tipka
+Button style: Stil tipke
+Button preview: Pregled tipke
+Attributes: Atributi
+View form: Forma pregleda
+Popup window: Skočni prozor
+Separate page: Posebna stranica
+Cancel: Odustani
+OK: OK
+This value should be {{ limit }} or more.: Ova vrijednost mora biti {{ limit }} ili više.
+This value should be {{ limit }} or less.: Ova vrijednost mora biti {{ limit }} ili manje.
+This value should be a valid number.: Ova vrijednost mora biti broj.
+Name: Ime
+Final: Završno
+Start: Početak
+Inactive: Neaktivno
+Configuration: Postavke
+Transitions: Prijelazi
+Add transition: Dodaj prijelaz
+Add transition to this step: Dodaj prijelaz ovom koraku
+Step: Korak
+Position: Položaj
+Update this step: Ažuriraj ovaj korak
+Clone this step: Kopiraj ovaj korak
+Delete this step: Obriši ovaj korak
+Entity field: Polje objekta
+Label: Oznaka
+Leave empty for system value: Ostavite prazno za sistemsku vrijednost
+Required: Obavezno
+Add: Dodaj
+Reset: Resetiraj
+Apply: Prihvati
+Info: Info
+System: Sistem
+Yes: Da
+No: Ne
+Update field: Ažuriraj polje
+Delete field: Obriši polje
+Update this transition: Ažuriraj ovaj prijelaz
+Clone this transition: Kopiraj ovaj prijelaz
+Delete this transition: Obriši ovaj prijelaz
+General: Općenito
+Add step: Dodaj korak
+Designer: Dizajner
+Workflow steps and transitions: Koraci i prijalzi tijeka rada
+Unmet conditions: Neispunjeni uvjeti
+Submit: Potvrdi
+General Information: Opće Informacije
+Create Workflow: Dodaj tijek rada
+Workflow activated: Tijek rada aktiviran
+Workflow deactivated: Tijek rada deaktiviran
+There are no transitions yet.: Još nema prijelaza.
+Reset workflow data: Resetiraj podatke tijeka rada
+
+oro:
+    workflow:
+        action:
+            process:
+                activate:   Aktiviraj
+                deactivate: Deaktiviraj
+
+            workflow:
+                general: Manipulacije tijeka rada
+                reset_data: Resetiraj podatke tijeka rada
+
+        block:
+            title:
+                process_info: Informacije o procesu
+            view:
+                process:
+                    trigger:
+                        description: %when% nakon %after% je %event%
+                        when:
+                            immediately: Odmah
+                        after:
+                            property: svojstvo
+                            entity:   objekt
+                        event:
+                            create:  napravljeno
+                            delete:  obrisano
+                            update:  ažurirano
+                workflow:
+                    default_step: Zadani korak
+
+        entity_config:
+            active_workflow:
+                label: 'Aktivan tijek rada'
+                none:  'ni jedan'
+
+            show_step_in_grid.choice:
+                hide: 'Sakrij'
+                show: 'Pokaži'
+
+            show_step_in_grid.label: 'Korak tijeka rada u mreži'
+
+        menu:
+            process_definition_list.description:  Sučelje upravljanja procesom
+            workflow_definition_list.description: Sučelje upravljanja tijekom rada
+
+        notification:
+            process:
+                activated:   Proces je uspješno aktiviran
+                deactivated: Proces je uspješno deaktiviran
+
+        processdefinition:
+            entity_label:                 Proces
+            entity_plural_label:          Procesi
+            actions_configuration.label:  Postavke radnje
+            enabled.label:                Omogućeno
+            execution_order.label:        Naredba izvšavanja
+            name.label:                   Kod
+            label.label:                  Ime
+            related_entity.label:         Povezani objekt
+            datagrid.view:                Pogledaj
+            exclude_definitions.label:    Isključi definicije
+
+        processtrigger:
+            entity_label:         Okidač Procesa
+            entity_plural_label:  Okidači Procesa
+            id.label:             ID
+            definition.label:     Definicija procesa
+            event.label:          Događaj
+            field.label:          Polje
+            priority.label:       Prioritet
+            queued.label:         Stavljeno u red
+            time_shift.label:     Vremenski pomak
+
+        transition:
+            start: "Započni %workflow%"
+
+        workflowdefinition:
+            entity_label:                 Tijek rada
+            entity_plural_label:          Tijek rada
+            label.label:                  Ime # this translation has been chosen because it doesn't confuse users
+            system.label:                 Sistemtem
+            configuration.label:          Postavke
+            entity_acls.label:            ACL-ovi objekta
+            entity_attribute_name.label:  Ime svojstva objekta
+            name.label:                   Kod # this translation has been chosen because it doesn't confuse users
+            related_entity.label:         Povezani objekt
+            start_step.label:             Zadani korak
+            steps.label:                  Koraci
+            steps_display_ordered.label:  Prikaži red koraka
+            active.label:                 Aktivan
+            clone_label_prefix:           'Kopija od '
+
+            datagrid:
+                view: Pogledaj
+                update: Uredi
+                clone:  Kopiraj
+                delete: Obriši
+                activate: Aktiviraj
+                deactivate: Deaktiviraj
+
+        workflowitem:
+            entity_label:             Stavka tijeka rada
+            entity_plural_label:      Stavke tijeka rada
+            entity_description:       Predstavlja stavku tijeka rada
+            id.label:                 ID
+            acl_identities.label:     ACL identiteti
+            current_step.label:       Trenutni korak
+            definition.label:         Definicija tijeka rada
+            entity_id.label:          Identifikator objekta
+            serialized_data.label:    Serijalizirani podaci
+            transition_records.label: Zapisi prijalaza
+            workflow_name.label:      Ime tijeka rada
+
+            related_entity.label:       Ime tijeka rada
+            related_entity.description: Povezano polje za stavku tijeka rada
+
+        workflowstep:
+            entity_label:         Korak tijeka rada
+            entity_plural_label:  Koraci tijeka rada
+            entity_description:   Predstavlja korak tijeka rada
+            id.label:             ID
+            definition.label:     Definicija tijeka rada
+            final.label:          Je konačno
+            label.label:          Ime # this translation has been chosen because it doesn't confuse users
+            name.label:           Kod # this translation has been chosen because it doesn't confuse users
+            step_order.label:     Raspored koraka
+
+            related_entity.label:       Korak tijeka rada
+            related_entity.description: Povezano polje za korak tijeka rada
+            grid.label:                 Korak
+
+        form:
+            name.label: Ime
+            from_step.label: Od koraka
+            to_step.label: Do koraka
+            view_form.label: Forma pregleda
+            warning_message.label: Upozorenje
+            button_icon.label: Ikona tipke
+            button_style.label: Stil tipke
+            button_preview.label: Pregled tipke
+            entity_field.label: Polje objekta
+            label.label: Oznaka
+            required.label: Obavezno
+            name.label: Ime
+            position.label: Pozicija
+            final.label: Konačno
+

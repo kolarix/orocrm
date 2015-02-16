@@ -1,0 +1,2 @@
+'oro.entity_merge.mass_action.validation.maximum_records_error': 'Previše zapisa obilježeno. Spajanje je moguće s maksimalno {{ number }} zapisa.'
+'oro.entity_merge.mass_action.validation.minimum_records_error': 'Odaberite od 2 do {{ number }} zapisa.'
