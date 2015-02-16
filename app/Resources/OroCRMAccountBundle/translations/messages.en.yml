@@ -3,7 +3,7 @@ Basic Information: Osnovne Informacije
 orocrm:
     dashboard:
         my_accounts_activity:
-            title:                  Nedavno pogledani klijenti
+            title:                  Nedavno pogledani klijentii
             view_all:               Pogledaj sve
             description:            Ovaj widget prikazuje popis nedavno pregledanih klijenata
 
