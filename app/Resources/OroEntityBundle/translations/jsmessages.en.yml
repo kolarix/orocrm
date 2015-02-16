@@ -7,4 +7,4 @@ oro:
             choose_entity_field:    Odaberi polje...
         not_exist: "Iskoristite objekt ili njegovo polje ne postoji"
 
-"Potvrda promjene objekta": "Potvrda promjene objekta"
+"Change Entity Confirmation": "Potvrda promjene objekta"

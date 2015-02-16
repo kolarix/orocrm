@@ -1,5 +1,5 @@
 Default: Zadano
 Remove: Obriši
 Add: Dodaj
-"Odaberi {{ entity }}": "Odaberi {{ entity }}"
-"Napravi {{ entity }}": "Napravi {{ entity }}"
+"Select {{ entity }}": "Odaberi {{ entity }}"
+"Create {{ entity }}": "Napravi {{ entity }}"

@@ -1,4 +1,4 @@
-"Nažalost, stranica se nije učitala ispravno": "Nažalost, stranica se nije učitala ispravno"
-"Lokalne promijene će biti izgubljene. Želite li ažurirati stranicu?": "Lokalne promijene će biti izgubljene. Želite li ažurirati stranicu?"
+"Sorry, page was not loaded correctly": "Nažalost, stranica se nije učitala ispravno"
+"Your local changes will be lost. Are you sure you want to refresh the page?": "Lokalne promijene će biti izgubljene. Želite li ažurirati stranicu?"
 "navigation.message.content.outdated": "Sadržaj {{ title }} stranice je zastario, molimo <a href='#' data-action='page-refresh'>ažurirajte stranicu</a>"
-"Sadržaj zabodene stranice je zastario": "Sadržaj zabodene stranice je zastario"
+"Content of pinned page is outdated": "Sadržaj zabodene stranice je zastario"

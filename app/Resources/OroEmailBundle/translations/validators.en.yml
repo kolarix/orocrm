@@ -1,1 +1,1 @@
-"Predložak za {{ field }} ({{ locale }}) ima syntax grešku: {{ error }}": "Predložak za {{ field }} ({{ locale }}) ima syntax grešku: {{ error }}"
+"The template for {{ field }} ({{ locale }}) has syntax error: {{ error }}": "Predložak za {{ field }} ({{ locale }}) ima syntax grešku: {{ error }}"

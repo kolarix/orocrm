@@ -45,5 +45,5 @@ oro:
             add_repository: 'Dodaj repozitorij'
         installer: 'Installer'
 
-'Business Application Platform': 'Business Application Platform'
-'Nazad na instalirane pakete': 'Nazad na instalirane pakete'
+'ORO Business Application Platform': 'Business Application Platform'
+'Back to Installed Packages': 'Nazad na instalirane pakete'

@@ -1,7 +1,7 @@
 Add another email: Dodaj email
 Additional: Dodatno
 
-"%groups% i %roles%": "%groups% i %roles%"
+"%groups% and %roles%": "%groups% i %roles%"
 
 oro.user.form.choose_user: Izaberi korisnika...
 oro.user.form.choose_gender: Izaberi spol...
@@ -11,7 +11,7 @@ oro.user.gender.female: Žensko
 Login: Prijava
 Logout: Odjava
 Login page: Stranica za prijavu
-"Bad credentials": "NEtočno korisničko ime ili lozinka."
+"Bad credentials": "Netočno korisničko ime ili lozinka."
 "Forgot Password": "Zaboravili lozinku?"
 "Password Reset": "Reset lozinke"
 "Reset password": "Reset lozinke"

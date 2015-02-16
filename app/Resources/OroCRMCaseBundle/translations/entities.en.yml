@@ -1,7 +1,7 @@
 case_source:
     email: Email
     phone: Telefon
-    web: Web
+    web: Web stranica
     other: Drugo
 case_status:
     open: Otvoren

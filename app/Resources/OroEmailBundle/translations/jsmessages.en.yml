@@ -6,5 +6,5 @@ oro:
             reference_title: '{{ variable_label }}. Kliklite da odete na povezane varijable.'
             change_entity_confirmation: Podaci predloška mogu sadržavati varijable vezane za prije odabrani objekt. Želite li očistiti sve podatke predloška?
 
-"Email poslan": "Email poslan"
-"Pregled": "Pregled"
+"The email was sent": "Email poslan"
+"Preview": "Pregled"

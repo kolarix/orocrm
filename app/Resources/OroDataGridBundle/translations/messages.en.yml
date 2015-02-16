@@ -1,4 +1,4 @@
-"Stavka obrisana": "Stavka obrisana"
+"Item deleted": "Stavka obrisana"
 oro_datagrid:
     no_data_hint %entityHint%: "%entityHint% ne postoji."
     not_found_hint %entityHint%:  "%entityHint% wnije pronađen. Pokušajte promijeniti kriterije pretrage ..."
