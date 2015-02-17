@@ -1,0 +1,23 @@
+"Configure integration":         "Podesi integraciju"
+"edit":                          "uredi"
+"Actions":                       "Radnje"
+"Entity":                        "Objekt"
+"Add":                           "Dodaj"
+"Cancel":                        "Odustani"
+"View":                          "Pogledaj"
+"Edit":                          "Uredi"
+"Delete":                        "Obriši"
+"There is no entities selected": "Nema označenih objekata"
+
+orocrm:
+    channel:
+        form:
+            entity: Odaberi objekt
+        confirmation:
+            delete_confirmation: Upozorenje: Brisanje integracije iz kanala će ju potpuno obrisati iz sistema. Nastaviti?
+            text:                Jeste li sigurni da želite promijeniti tip kanala?
+            title:               Promijeni tip kanala
+            agree:               Da
+        entity_owner:
+            System: Sistem
+            Custom: Prilagođeno

@@ -39,7 +39,7 @@ orocrm:
             source.label:                   Izvor
             status.label:                   Status
             priority.label:                 Prioritet
-            comments.label:                 Komantari
+            comments.label:                 Komentari
             id.label:                       Id
             organization.label:             Organizacija
 
@@ -47,8 +47,8 @@ orocrm:
             #
             # OroCRM/Bundle/CaseBundle/Entity/CaseComment
             #
-            entity_label:                   Komantar Slučaja
-            entity_plural_label:            Komantari Slučaja
+            entity_label:                   Komentar Slučaja
+            entity_plural_label:            Komentari Slučaja
             entity_description:             Predstavlja komentare Slučaja
             message.label:                  Poruka
             public.label:                   Napravi Javnim

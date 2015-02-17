@@ -29,10 +29,10 @@ oro:
     ui:
         actions:          %entityName% Radnje
         actions.activity: Više radnji
-        create:         Napravi
-        create_entity:  Napravi %entityName%
+        create:         Dodaj
+        create_entity:  Dodaj %entityName%
         update_entity:  Ažuriraj %entityName%
-        created_at:     Napravljeno
+        created_at:     Dodano
         delete:         Obriši
         delete_confirm: Želite li obrisati ovaj %entity_label%?
         delete_entity:  Obriši %entityName%

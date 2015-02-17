@@ -29,9 +29,9 @@ oro:
         organization.label:  Organizacija
 
         action:
-            assign_unassign: "Tag assign/unassign"
-            unassign_global: "Unassign all tags from entities"
-            view_cloud: "View tag cloud"
+            assign_unassign: "Dodijeli oznaku/poništi oznaku"
+            unassign_global: "Poništi sve oznake objekta"
+            view_cloud: "Pogledaj oblak oznaka"
 
         tagging:
             alias.label:         Alias

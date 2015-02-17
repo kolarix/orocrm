@@ -1,0 +1,57 @@
+orocrm:
+    channel:
+        entity_plural_label:      Kanali
+        entity_label:             Kanal
+        id.label:                 Id
+        name.label:               Ime
+        owner.label:              Vlasnik
+        entities.label:           Objekti
+        data_source.label:        Integracija
+        channel_type.label:       Tip kanala
+        customer_identity.label:  Identitet korisnika
+        status.label:             Status
+        active.label:             Aktivno
+        inactive.label:           Neaktivno
+        data.label:               Dodatni podaci
+        button:
+            activate.label:       Aktiviraj
+            deactivate.label:     Deaktiviraj
+
+        customeridentity:
+            id.label:             Id
+            name.label:           Ime
+            entity_label:         Identitet korisnika
+            entity_plural_label:  Identiteti korisnika
+            account.label:        Klijent
+            contact.label:        Kontakt
+            owner.label:          Vlasnik
+            data_channel.label:   Kanal
+        datagrid:
+            action:
+                update.label: Ažuriraj
+                delete.label: Obriši
+
+        controller:
+                message:
+                    saved: Kanal spremljen
+                    status:
+                        activated:     Kanal aktiviran
+                        deactivated:   Kanal deaktiviran
+        form:
+            select_entities.label:          Odaberite objekte
+            select_data_source.label:       Odaberite izvor korisnika
+            select_customer_identity.label: Odaberite identitet korisnika
+            select_channel_type.label:      Odaberite tip kanala...
+            select_channel_status.label:    Odaberite status kanala...
+        channel_type:
+            custom.label: Prilagođeno
+
+        dashboard:
+            average_lifetime_sales_chart:
+                title:       Ukupne dosadašnje prodaje
+                description: Ovaj widget prikazuje prosječnu dosadašnju prodaju za svaki kanal podataka u obliku grafikona
+                axis_label:  Dosadašnje prodaje
+                month:       Mjesec
+            e_commerce.label: Ecommerce
+
+oro.embeddedform.data_channel.label: Kanal

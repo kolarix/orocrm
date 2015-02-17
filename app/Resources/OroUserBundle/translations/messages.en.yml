@@ -69,7 +69,7 @@ oro:
         groups.label:                Grupe
         email.label:                 Primarni email
         email_origins.label:         Email
-        emails.label:                Emails
+        emails.label:                Emailovi
         enabled.label:               Status
         entity_description:          Predstavlja korisnički profil
         entity_label:                Korisnik
