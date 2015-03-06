@@ -1,42 +1,42 @@
 orocrm:
     analytics:
-        less: Less than
-        more: More than
-        from: From
-        to: To
-        best: best
-        worst: worst
+        less: Manje od
+        more: Više pd
+        from: Od
+        to: do
+        best: najbolji
+        worst: najgori
         title:
-            add_row: Add bucket
+            add_row: Dodaj
         rfm:
             recency:
-                label: Recency
-                title: Recency
+                label: Učestalost
+                title: Učestalost
             frequency:
-                label: Frequency
-                title: Frequency
+                label: Frekventnost
+                title: Frekventnost
             monetary:
-                label: Monetary value
-                title: Monetary value
+                label: Novčana vrijednost
+                title: Novčana vrijednost
         form:
-            rfm_enable.label: Enable RFM
-            recency.label: Recency
-            frequency.label: Frequency
-            monetary.label: Monetary value
-            rfm_setting.title: RFM Segment Configuration
-            score.title: Score
-            actions.title: Actions
+            rfm_enable.label: Omogući RFM
+            recency.label: Učestalost
+            frequency.label: Frekventnost
+            monetary.label: Novčana vrijednost
+            rfm_setting.title: RFM Konfiguracija
+            score.title: Rezultat
+            actions.title: Radnje
             hint:
-                recency: Days, less is better
-                frequency: Orders per year, more is better
-                monetary: Order amount per year, US$, more is better
+                recency: Dana, manje je bolje
+                frequency: Po godini, više je bolje
+                monetary: Svota po godini, US$, više je bolje
         rfmmetriccategory:
-            entity_label: RFM Metric Category
-            entity_plural_label: RFM Metric Categories
-            category_index.label: Index
-            category_type.label: Type
+            entity_label: RFM Metrička kategorija
+            entity_plural_label: RFM Metričke kategorije
+            category_index.label: Indeks
+            category_type.label: Tip
             id.label: Id
-            max_value.label: Maximum Value
-            min_value.label: Minimum Value
-            channel.label: Channel
-            owner.label: Owner
+            max_value.label: Maximalna Vrijednost
+            min_value.label: Minimalna Vrijednost
+            channel.label: Kanal
+            owner.label: Vlasnik

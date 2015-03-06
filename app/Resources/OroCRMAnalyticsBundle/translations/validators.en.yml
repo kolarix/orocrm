@@ -2,6 +2,6 @@ orocrm:
     analytics:
         validator:
             categories:
-                order: Values should be in %order% order
-                count: Minimum %count% required
-                blank: Values should not be blank
+                order: Vrijednost treba biti u %order% redu
+                count: Minimalno %count% 
+                blank: Vrijednost ne smije biti prazna
