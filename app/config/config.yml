@@ -13,7 +13,7 @@ framework:
     csrf_protection: true
     validation:      { enable_annotations: true }
     templating:      { engines: ['twig', 'php'] } #assets_version: SomeVersionScheme
-    default_locale:           "%locale%"
+    default_locale:           hr_HR
     trusted_proxies:          ~
     session:
         name:                 CRMID
@@ -138,7 +138,7 @@ be_simple_soap:
             resource_type:    oro_soap
 
 stof_doctrine_extensions:
-    default_locale: en
+    default_locale: hr
     translation_fallback: true
     orm:
         default:
@@ -185,7 +185,7 @@ clank:
             time:             60000                           # the time in milliseconds between the "tick" function being called
 
 a2lix_translation_form:
-    locales:                  [en, fr]
+    locales:                  [en, fr, hr]
     templating:               "OroUIBundle:Form:translatable.html.twig"
 
 lexik_maintenance:

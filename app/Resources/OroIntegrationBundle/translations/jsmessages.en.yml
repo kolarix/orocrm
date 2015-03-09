@@ -1,6 +1,6 @@
 oro:
     integration:
-        error: Greška, pokučajte kasnije.
+        error: Greška, pokušajte kasnije.
         submit: Jeste li sigurni da želite promijeniti tip?
         change_type: Promijeni Tip
 
